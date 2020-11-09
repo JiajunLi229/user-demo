@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -20,6 +21,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -45,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604902364775</updated>
       <workItem from="1604902365870" duration="1566000" />
-      <workItem from="1604904192205" duration="938000" />
+      <workItem from="1604904192205" duration="3197000" />
     </task>
     <servers />
   </component>
@@ -57,21 +59,25 @@
       <screen x="0" y="23" width="1680" height="937" />
     </state>
     <state x="440" y="139" key="#Plugins/0.23.1680.937@0.23.1680.937" timestamp="1604904179190" />
-    <state width="1659" height="245" key="GridCell.Tab.0.bottom" timestamp="1604904524006">
-      <screen x="0" y="23" width="1680" height="937" />
+    <state width="1659" height="245" key="GridCell.Tab.0.bottom" timestamp="1604906145309">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604906145309" />
     <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.23.1680.937@0.23.1680.937" timestamp="1604904524006" />
-    <state width="1659" height="245" key="GridCell.Tab.0.center" timestamp="1604904524005">
-      <screen x="0" y="23" width="1680" height="937" />
+    <state width="1659" height="245" key="GridCell.Tab.0.center" timestamp="1604906145308">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="245" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604906145308" />
     <state width="1659" height="245" key="GridCell.Tab.0.center/0.23.1680.937@0.23.1680.937" timestamp="1604904524005" />
-    <state width="1659" height="245" key="GridCell.Tab.0.left" timestamp="1604904524004">
-      <screen x="0" y="23" width="1680" height="937" />
+    <state width="1659" height="245" key="GridCell.Tab.0.left" timestamp="1604906145307">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="245" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604906145307" />
     <state width="1659" height="245" key="GridCell.Tab.0.left/0.23.1680.937@0.23.1680.937" timestamp="1604904524004" />
-    <state width="1659" height="245" key="GridCell.Tab.0.right" timestamp="1604904524005">
-      <screen x="0" y="23" width="1680" height="937" />
+    <state width="1659" height="245" key="GridCell.Tab.0.right" timestamp="1604906145308">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state width="1659" height="245" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604906145308" />
     <state width="1659" height="245" key="GridCell.Tab.0.right/0.23.1680.937@0.23.1680.937" timestamp="1604904524005" />
     <state width="500" height="400" key="SwitcherDM" timestamp="1604903503452">
       <screen x="0" y="23" width="1680" height="937" />
