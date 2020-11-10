@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    //normal
+    let map = new Map([["name", "lee"], ["age", 19], ["profession", "twER"]]);
+
+    //from object to map Object.entries
+    let object = {
+        name: "lee",
+        age: 19,
+        profession: "twer"
+    }
+
+    let objectToMap = new Map(Object.entries(object));
+    objectToMap.forEach((key, value) => alert(`${key} is ${value}`));
+
+    //from map to object Object.fromEntries
+    let mapToObject = Object.fromEntries(map);
+    for (let key in mapToObject) {
+        alert (`${key} is ${mapToObject[key]}`)
+    }
+</script>
+</html>
