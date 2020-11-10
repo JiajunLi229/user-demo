@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    'use strict';
+    let map = new Map();
+    map = map.set("name", "john").set("profession", "TWer").set("age", 50);
+
+    map.forEach((value, key) => console.log(`${key} is ${value}`));
+    //name is john
+    //profession is TWer
+    //age is 50
+
+    /*
+    map.keys() —— 遍历并返回所有的键（returns an iterable for keys），
+map.values() —— 遍历并返回所有的值（returns an iterable for values），
+map.entries() —— 遍历并返回所有的实体（returns an iterable for entries）[key, value]，for..of 在默认情况下使用的就是这个。
+     */
+
+    console.log(map.keys());
+    console.log(map.values());
+
+    for (let key of map.keys()) {
+        alert(key);
+    }
+    for (let value of map.values()) {
+        alert(value);
+    }
+    for (let entries of map) {
+        alert(entries);
+    }
+
+
+</script>
+</html>
