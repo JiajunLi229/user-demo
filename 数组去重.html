@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+arr 是一个数组。
+
+创建一个函数 unique(arr)，返回去除重复元素后的数组 arr。
+
+例如：
+
+function unique(arr) {
+  /* your code */
+}
+
+let strings = ["Hare", "Krishna", "Hare", "Krishna",
+  "Krishna", "Krishna", "Hare", "Hare", ":-O"
+];
+
+alert( unique(strings) ); // Hare, Krishna, :-O
+-->
+<script>
+
+function unique(arr) {
+    let uniqueArray = [];
+    for (let string of arr) {
+        if (!uniqueArray.includes(string)) {
+            uniqueArray.push(string);
+        }
+    }
+
+    return uniqueArray;
+}
+
+    let strings = ["Hare", "Krishna", "Hare", "Krishna",
+        "Krishna", "Krishna", "Hare", "Hare", ":-O"
+    ];
+
+    alert( unique(strings) ); // Hare, Krishna, :-O
+</script>
+</html>

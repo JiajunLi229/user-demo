@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="" />
+    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/数组去重.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1k2cw4fsOZ78sxAs4I8Y8SaCTkv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,6 +50,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -48,11 +73,23 @@
       <updated>1604902364775</updated>
       <workItem from="1604902365870" duration="1566000" />
       <workItem from="1604904192205" duration="11454000" />
+      <workItem from="1604977251533" duration="713000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="139" key="#Plugins" timestamp="1604904179190">
@@ -79,11 +116,19 @@
     </state>
     <state width="879" height="289" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604974470402" />
     <state width="1659" height="245" key="GridCell.Tab.0.right/0.23.1680.937@0.23.1680.937" timestamp="1604904524005" />
+    <state x="341" y="130" key="SettingsEditor" timestamp="1604977910370">
+      <screen x="0" y="23" width="1680" height="937" />
+    </state>
+    <state x="341" y="130" key="SettingsEditor/0.23.1680.937@0.23.1680.937" timestamp="1604977910370" />
     <state width="500" height="449" key="SwitcherDM" timestamp="1604972449512">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="449" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1604972449512" />
     <state width="500" height="400" key="SwitcherDM/0.23.1680.937@0.23.1680.937" timestamp="1604903503452" />
+    <state x="637" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604977285033">
+      <screen x="0" y="23" width="1680" height="937" />
+    </state>
+    <state x="637" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.937@0.23.1680.937" timestamp="1604977285033" />
     <state x="1020" y="269" key="refactoring.ChangeSignatureDialog" timestamp="1604931480395">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
