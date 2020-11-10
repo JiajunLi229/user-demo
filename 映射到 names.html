@@ -17,6 +17,28 @@ alert( names ); // John, Pete, Mary
 -->
 
 <script>
+    let john = { name: "John", age: 25 };
+    let pete = { name: "Pete", age: 30 };
+    let mary = { name: "Mary", age: 28 };
 
+    let users = [ john, pete, mary ];
+
+    let names = function () {
+        let array = [];
+        for (let person of users) {
+            array.push(person.name);
+        }
+        return array;
+    }
+
+        alert( names() ); // John, Pete, Mary
+    /*
+    not a practice following requirement
+    name should be a array, instead of a function
+    better solution:
+
+    let names = users.map(item => item.name);
+
+    */
     </script>
 </html>
