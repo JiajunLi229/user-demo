@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数组去重.html" afterDir="false" />
+    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added new practice.">
+      <change afterPath="$PROJECT_DIR$/research against dot and square bracket.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/从数组创建键（值）对象.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +46,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -73,8 +76,16 @@
       <updated>1604902364775</updated>
       <workItem from="1604902365870" duration="1566000" />
       <workItem from="1604904192205" duration="11454000" />
-      <workItem from="1604977251533" duration="713000" />
+      <workItem from="1604977251533" duration="8007000" />
     </task>
+    <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
+      <created>1604977990209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604977990209</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,31 +102,35 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[JiajunLi] added new practice." />
+    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added new practice." />
+  </component>
   <component name="WindowStateProjectService">
     <state x="440" y="139" key="#Plugins" timestamp="1604904179190">
       <screen x="0" y="23" width="1680" height="937" />
     </state>
     <state x="440" y="139" key="#Plugins/0.23.1680.937@0.23.1680.937" timestamp="1604904179190" />
-    <state width="879" height="289" key="GridCell.Tab.0.bottom" timestamp="1604974470403">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1659" height="304" key="GridCell.Tab.0.bottom" timestamp="1604992958564">
+      <screen x="0" y="23" width="1680" height="937" />
     </state>
     <state width="879" height="289" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604974470403" />
-    <state width="1659" height="245" key="GridCell.Tab.0.bottom/0.23.1680.937@0.23.1680.937" timestamp="1604904524006" />
-    <state width="879" height="289" key="GridCell.Tab.0.center" timestamp="1604974470401">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1659" height="304" key="GridCell.Tab.0.bottom/0.23.1680.937@0.23.1680.937" timestamp="1604992958564" />
+    <state width="1659" height="304" key="GridCell.Tab.0.center" timestamp="1604992958563">
+      <screen x="0" y="23" width="1680" height="937" />
     </state>
     <state width="879" height="289" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604974470401" />
-    <state width="1659" height="245" key="GridCell.Tab.0.center/0.23.1680.937@0.23.1680.937" timestamp="1604904524005" />
-    <state width="879" height="289" key="GridCell.Tab.0.left" timestamp="1604974470401">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1659" height="304" key="GridCell.Tab.0.center/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
+    <state width="1659" height="304" key="GridCell.Tab.0.left" timestamp="1604992958563">
+      <screen x="0" y="23" width="1680" height="937" />
     </state>
     <state width="879" height="289" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604974470401" />
-    <state width="1659" height="245" key="GridCell.Tab.0.left/0.23.1680.937@0.23.1680.937" timestamp="1604904524004" />
-    <state width="879" height="289" key="GridCell.Tab.0.right" timestamp="1604974470402">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1659" height="304" key="GridCell.Tab.0.left/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
+    <state width="1659" height="304" key="GridCell.Tab.0.right" timestamp="1604992958563">
+      <screen x="0" y="23" width="1680" height="937" />
     </state>
     <state width="879" height="289" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604974470402" />
-    <state width="1659" height="245" key="GridCell.Tab.0.right/0.23.1680.937@0.23.1680.937" timestamp="1604904524005" />
+    <state width="1659" height="304" key="GridCell.Tab.0.right/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
     <state x="341" y="130" key="SettingsEditor" timestamp="1604977910370">
       <screen x="0" y="23" width="1680" height="937" />
     </state>

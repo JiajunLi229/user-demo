@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    let  salaries = {
+        john: 100,
+        ann: 160,
+        pete: 130
+    }
+
+    let multiplyNumeric = (obj) => {
+        for (let key in obj) {
+            obj[key] = obj[key] * 2;
+            /*
+            错误写法：
+            obj.key = obj.key * 2;
+            此时等价于 obj["key"] = obj["key"] * 2;
+            意味着在访问一个名为key的属性，而这个属性不存在
+             */
+        }
+    };
+
+    multiplyNumeric(salaries);
+    /*
+
+let key = "pig";
+obj[key];
+obj["pig"]
+
+ */
+
+    let nameList = {
+        a : "a",
+        b : "b",
+        c : "c"
+    }
+    alert(nameList[a]);
+    alert(nameList.a)
+    // 访问对象属性，比如a 必须在括号内加引号，否则会访问变量a,如果 let a = "a",才可以正常访问
+    // 访问属性时，nameList.a 的效果相当于 nameList["a"]
+    //  salaries["john"] == salaries.john
+</script>
+</html>
