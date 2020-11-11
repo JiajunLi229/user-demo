@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    let object = {
+        name: "jiajun",
+        age: 25,
+        profession: "twer"
+    }
+
+    let objectEntries = [["name", "jiajun"],["age", 25],["profession", "twer"]];
+    let objectKeys = ["name","age","profession"];
+    let objectValues = ["jiajun", "age", "twer"];
+
+    for (let [key, value] of Object.entries(object)) {
+        console.log(`${key} is ${value}`);
+    }
+    for (let [key, value] of objectEntries) {
+        console.log(`${key} is ${value}`);
+    }
+
+    for (let [key] of Object.keys(object)) {
+        console.log(`key is ${key}`);
+    }
+    for (let [key] of objectKeys) {
+        console.log(`key is ${key}`);
+    }
+
+    for (let [value] of Object.values(object)) {
+        console.log(`value is ${value}`);
+    }
+    for (let [value] of objectValues) {
+        console.log(`value is ${value}`);
+    }
+/*
+与 Object.entries(obj) 方法进行循环操作
+
+逻辑
+依次遍历对象转化的数组内的每个[key, value]元素，复制给 let [key, value]中的两个变量
+
+
+Object.keys()返回的是一个对象key的数组
+
+当使用
+for (let [key] of Object.keys(object)) {
+console.log(`key is ${key}`);
+}
+因为key数组每个元素为字符串, for 循环遍历每个元素，而string类型自身是可以遍历的('n''a''m''e'), 而let[key]内只给了一个变量key，所以key每一轮的遍历会抓取到字符串的第一个字母，依次为 n a p
+values也会有以上的问题，同时因为value的类型不固定，不一定是string，所以value可能是不能迭代遍历的，此时会有error
+ */
+
+
+
+</script>
+</html>

@@ -23,7 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] finished new practice.">
-      <change afterPath="$PROJECT_DIR$/ Object.keys，values，entries/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deconstruction/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deconstruction/element selection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deconstruction/function as default value.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deconstruction/iterate key-value in entries of object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deconstruction/rest parameter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,12 +57,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/deconstruction" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deconstruction" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/set" />
       <recent name="$PROJECT_DIR$/array-practice" />
@@ -85,7 +92,7 @@
       <workItem from="1604902365870" duration="1566000" />
       <workItem from="1604904192205" duration="11454000" />
       <workItem from="1604977251533" duration="11294000" />
-      <workItem from="1605014536334" duration="7292000" />
+      <workItem from="1605014536334" duration="13531000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -153,6 +160,10 @@
       <screen x="0" y="23" width="1680" height="937" />
     </state>
     <state x="440" y="139" key="#Plugins/0.23.1680.937@0.23.1680.937" timestamp="1604904179190" />
+    <state x="885" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605080701916">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="885" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1605080701916" />
     <state width="1659" height="289" key="GridCell.Tab.0.bottom" timestamp="1605017303162">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

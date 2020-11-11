@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<script>
+    'use strict';
+
+    let [name1, name2, ...rest] = [function () {
+        return "hello";
+    }, "Caesar", "Consul", "of the Roman Republic"];
+
+    alert(name1()); // 右侧可以是函数
+    alert(name2); // Caesar
+
+    // 请注意，`rest` 的类型是数组
+    alert(rest[0]); // Consul
+    alert(rest[1]); // of the Roman Republic
+    alert(rest.length); // 2
+</script>
