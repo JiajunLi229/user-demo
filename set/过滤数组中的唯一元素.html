@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+定义 arr 为一个数组。
+
+创建一个函数 unique(arr)，该函数返回一个由 arr 中所有唯一元素所组成的数组。
+
+例如：
+
+function unique(arr) {
+  /* 你的代码 */
+}
+
+let values = ["Hare", "Krishna", "Hare", "Krishna",
+  "Krishna", "Krishna", "Hare", "Hare", ":-O"
+];
+
+alert( unique(values) ); // Hare, Krishna, :-O
+P.S. 这里用到了 string 类型，但其实可以是任何类型的值。
+
+P.S. 使用 Set 来存储唯一值。
+-->
+<script>
+    function unique(arr) {
+        let set = new Set(arr);
+        return Array.from(set);
+    }
+
+    let values = ["Hare", "Krishna", "Hare", "Krishna",
+        "Krishna", "Krishna", "Hare", "Hare", ":-O"
+    ];
+
+    console.log((unique(values)));
+</script>
+</html>
