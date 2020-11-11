@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    let array = [1, 2, 3, 4, 5];
+    let object = {
+        name: "jiajun",
+        age: "24",
+        profession: "twer"
+    }
+
+    let arrayToSet = new Set(array);
+    arrayToSet.add(object);
+
+    console.log(arrayToSet);
+    /*
+    0: 1
+    1: 2
+    2: 3
+    3: 4
+    4: 5
+    5:{name: "jiajun", age: "24", profession: "twer"}
+     */
+
+    for (let value of arrayToSet) {
+        alert(value);
+    }
+
+    arrayToSet.forEach((value,value2) => alert(`i'm ${value}, and my twin is ${value2}`));
+
+
+</script>
+</html>
