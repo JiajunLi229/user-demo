@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] finished new practice." />
+    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] finished new practice.">
+      <change afterPath="$PROJECT_DIR$/ Object.keys，values，entries/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/set" />
       <recent name="$PROJECT_DIR$/array-practice" />
     </key>
   </component>
@@ -81,7 +85,7 @@
       <workItem from="1604902365870" duration="1566000" />
       <workItem from="1604904192205" duration="11454000" />
       <workItem from="1604977251533" duration="11294000" />
-      <workItem from="1605014536334" duration="6091000" />
+      <workItem from="1605014536334" duration="7292000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -235,6 +239,10 @@
     </state>
     <state x="637" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1604998978810" />
     <state x="637" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.937@0.23.1680.937" timestamp="1604977285033" />
+    <state x="648" y="0" width="777" height="859" key="dock-window-1" timestamp="1605075414605">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="648" y="0" width="777" height="859" key="dock-window-1/0.0.1680.1050@0.0.1680.1050" timestamp="1605075414605" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1604999776852">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -243,10 +251,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1020" y="269" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604931480395" />
-    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup" timestamp="1605016310350">
+    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup" timestamp="1605075478192">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605016310350" />
+    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605075478192" />
     <state x="505" y="228" width="670" height="676" key="search.everywhere.popup/0.23.1680.937@0.23.1680.937" timestamp="1604904144297" />
   </component>
 </project>
