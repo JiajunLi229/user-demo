@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] research map creation.">
-      <change afterPath="$PROJECT_DIR$/set/过滤数组中的唯一元素.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] finished new practice." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +81,7 @@
       <workItem from="1604902365870" duration="1566000" />
       <workItem from="1604904192205" duration="11454000" />
       <workItem from="1604977251533" duration="11294000" />
-      <workItem from="1605014536334" duration="5647000" />
+      <workItem from="1605014536334" duration="6091000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -114,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605019652835</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[JiajunLi] finished new practice.">
+      <created>1605074325404</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605074325404</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +141,8 @@
     <MESSAGE value="[JiajunLi] added new research." />
     <MESSAGE value="[JiajunLi] research map." />
     <MESSAGE value="[JiajunLi] research map creation." />
-    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] research map creation." />
+    <MESSAGE value="[JiajunLi] finished new practice." />
+    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] finished new practice." />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="139" key="#Plugins" timestamp="1604904179190">
