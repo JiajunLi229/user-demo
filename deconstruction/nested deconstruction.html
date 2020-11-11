@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    let options = {
+        size: {
+            width: 100,
+            height: 200
+        },
+        items: ["Cake", "Donut"],
+        extra: true
+    };
+
+    let {
+        size: {width, height},
+        items,
+        extra,
+        title = "menu"
+    } = options;
+
+    console.log(`width is ${width}`);
+    console.log(`height is ${height}`);
+    console.log(`items is ${items}`);
+    console.log(`extra is ${extra}`);
+    console.log(`title is ${title}`);
+</script>
+</html>

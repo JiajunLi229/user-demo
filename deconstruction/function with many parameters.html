@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    let options = {
+        title: "My menu",
+        items: ["chicken", "pork"],
+        width: 400,
+        height: 500
+    };
+
+    function showMenu({
+                          title = "untitled", // default value
+                          width = 200, // default value
+                          height = 100,// default value
+                          items: [item1, item2],
+
+                      }) {
+        console.log(`the title is ${title}, `
+            + `and width is ${width} `
+            + `and height is ${height}, `
+            + `items are ${item1} and ${item2}`
+        )
+        //the title is My menu, and width is 400 and height is 500, items are chicken and pork
+    }
+
+    showMenu(options);
+</script>
+</html>

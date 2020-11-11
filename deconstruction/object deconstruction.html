@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    let object = {
+        name: "jiajun",
+        age: 25,
+        profession: "twer"
+    }
+     //rest parameter
+    let {profession, ...rest} = object;
+    alert(profession);
+    //rest会成为一个拥有剩余属性的对象
+    alert(rest.name);
+    alert(rest.age);
+
+
+    let {name: nameOfSon, age: fatherAge} = object;
+
+    alert(nameOfSon);//"jiajun"
+    alert(fatherAge);//25
+
+    object.name = "Lee";
+    alert(nameOfSon);
+
+    let {length} = object;
+    let {name} = object;
+
+    //alert(length);//undefined
+    //alert(name);//"jiajun"
+
+</script>
+</html>
