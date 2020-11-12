@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] finished new practice." />
+    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] finished new practice.">
+      <change afterPath="$PROJECT_DIR$/deconstruction-practice/最高薪资.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,6 +89,7 @@
       <workItem from="1604904192205" duration="11454000" />
       <workItem from="1604977251533" duration="11294000" />
       <workItem from="1605014536334" duration="19100000" />
+      <workItem from="1605145611906" duration="4182000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
