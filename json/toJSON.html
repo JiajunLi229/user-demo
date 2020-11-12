@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    let room = {
+        number: 23,
+        size: 100,
+        toJSON() {
+            return "hello"
+        }
+    };
+
+    let meetup = {
+        title: "Conference",
+        room
+    };
+
+    console.log( JSON.stringify(room) ); // "hello"
+
+    console.log( JSON.stringify(meetup) );//{"title":"Conference","room":"hello"}
+
+</script>
+</html>

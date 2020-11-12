@@ -23,7 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] finished new practice.">
-      <change afterPath="$PROJECT_DIR$/deconstruction-practice/最高薪资.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/json basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/replacer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/reviver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/toJSON.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/排除反向引用.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,18 +57,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/deconstruction" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/json" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/deconstruction" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/set" />
       <recent name="$PROJECT_DIR$/array-practice" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/json" />
+      <recent name="$PROJECT_DIR$/deconstruction" />
     </key>
   </component>
   <component name="RunManager">
@@ -89,7 +94,9 @@
       <workItem from="1604904192205" duration="11454000" />
       <workItem from="1604977251533" duration="11294000" />
       <workItem from="1605014536334" duration="19100000" />
-      <workItem from="1605145611906" duration="4182000" />
+      <workItem from="1605145611906" duration="5702000" />
+      <workItem from="1605165445633" duration="1843000" />
+      <workItem from="1605168604638" duration="3642000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -252,10 +259,15 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="648" y="0" width="777" height="859" key="dock-window-1/0.0.1680.1050@0.0.1680.1050" timestamp="1605075414605" />
-    <state width="600" height="440" key="javadoc.popup" timestamp="1604999776852">
+    <state x="542" y="264" width="596" height="522" key="find.popup" timestamp="1605160175837">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="542" y="264" width="596" height="522" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605160175837" />
+    <state width="600" height="431" key="javadoc.popup" timestamp="1605166866946">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
     <state width="600" height="440" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1604999776852" />
+    <state width="600" height="431" key="javadoc.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1605166866946" />
     <state x="1020" y="269" key="refactoring.ChangeSignatureDialog" timestamp="1604931480395">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

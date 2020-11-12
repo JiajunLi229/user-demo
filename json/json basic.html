@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    let room = {
+        number: 23
+    };
+
+    let meetup = {
+        title: "Conference",
+        room: {
+            number: 23,
+            participants: {name1: "john", name2: "ann"}
+        }
+    };
+    meetup.place = room;
+
+    console.log(JSON.stringify(meetup));
+    /*
+    {"title":"Conference","room":{"number":23,"participants":{"name1":"john","name2":"ann"}},"place":{"number":23}}
+    */
+    console.log(JSON.stringify(meetup, null, 1));
+    /*
+    {
+  "title": "Conference",
+  "room": {
+    "number": 23,
+    "participants": {
+      "name1": "john",
+      "name2": "ann"
+    }
+  },
+  "place": {
+    "number": 23
+  }
+}
+    * */
+
+    //console.log(JSON.stringify(meetup, ['name1', 'name2']));
+    //当传入replacer的变量的container变量没有被编译时，传入replacer的变量无法编译出来 {}
+    //console.log(JSON.stringify(meetup, [""]));
+    //replacer可以规定编码哪些变量，传入一个[""]时，对象内没有""变量，所以结果是{}
+
+    /* 整个解构都被字符串化了
+    {
+      "title":"Conference",
+      "room":{"number":23,"participants":["john","ann"]},
+    }
+    */
+</script>
+</html>

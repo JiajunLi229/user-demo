@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+let room = {
+  number: 23
+};
+
+let meetup = {
+  title: "Conference",
+  occupiedBy: [{name: "John"}, {name: "Alice"}],
+  place: room
+};
+
+// 循环引用
+room.occupiedBy = meetup;
+meetup.self = meetup;
+
+alert( JSON.stringify(meetup, function replacer(key, value) {
+  /* your code */
+}));
+
+/* 结果应该是：
+{
+  "title":"Conference",
+  "occupiedBy":[{"name":"John"},{"name":"Alice"}],
+  "place":{"number":23}
+}
+*/
+-->
+<script>
+    let room = {
+        number: 23
+        //occupiedBy : meetup
+    };
+
+    let meetup = {
+        title: "Conference",
+        occupiedBy: [{name: "John"}, {name: "Alice"}],
+        place: room
+    };
+
+
+    // 循环引用
+    room.occupiedBy = meetup;
+    meetup.self = meetup;
+
+    alert( JSON.stringify(meetup, function replacer(key, value) {
+        return (key === 'occupiedBy') ? undefined : value;
+    }));
+
+    /* 结果应该是：
+    {
+      "title":"Conference",
+      "occupiedBy":[{"name":"John"},{"name":"Alice"}],
+      "place":{"number":23}
+    }
+    */
+</script>
+</html>
