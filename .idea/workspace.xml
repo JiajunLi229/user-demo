@@ -23,11 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] finished new practice.">
-      <change afterPath="$PROJECT_DIR$/json/json basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/replacer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/reviver.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/toJSON.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/排除反向引用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/spread.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,19 +53,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/function" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/function" />
+      <recent name="$PROJECT_DIR$/json" />
+      <recent name="$PROJECT_DIR$/deconstruction" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/set" />
       <recent name="$PROJECT_DIR$/array-practice" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/json" />
-      <recent name="$PROJECT_DIR$/deconstruction" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,7 +93,10 @@
       <workItem from="1605014536334" duration="19100000" />
       <workItem from="1605145611906" duration="5702000" />
       <workItem from="1605165445633" duration="1843000" />
-      <workItem from="1605168604638" duration="3642000" />
+      <workItem from="1605168604638" duration="3816000" />
+      <workItem from="1605493947134" duration="590000" />
+      <workItem from="1605494595239" duration="1358000" />
+      <workItem from="1605496188553" duration="260000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -160,6 +160,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] finished new practice." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="98" y="16" key="#HTML" timestamp="1605496167096">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="98" y="16" key="#HTML/0.0.1680.1050@0.0.1680.1050" timestamp="1605496167096" />
     <state x="440" y="139" key="#Plugins" timestamp="1604904179190">
       <screen x="0" y="23" width="1680" height="937" />
     </state>
@@ -168,25 +172,25 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="885" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1605080701916" />
-    <state width="1659" height="289" key="GridCell.Tab.0.bottom" timestamp="1605105381803">
+    <state width="880" height="134" key="GridCell.Tab.0.bottom" timestamp="1605494582982">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="289" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605105381803" />
+    <state width="880" height="134" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605494582982" />
     <state width="1659" height="304" key="GridCell.Tab.0.bottom/0.23.1680.937@0.23.1680.937" timestamp="1604992958564" />
-    <state width="1659" height="289" key="GridCell.Tab.0.center" timestamp="1605105381802">
+    <state width="880" height="134" key="GridCell.Tab.0.center" timestamp="1605494582981">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="289" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605105381802" />
+    <state width="880" height="134" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605494582981" />
     <state width="1659" height="304" key="GridCell.Tab.0.center/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="1659" height="289" key="GridCell.Tab.0.left" timestamp="1605105381801">
+    <state width="880" height="134" key="GridCell.Tab.0.left" timestamp="1605494582981">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="289" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605105381801" />
+    <state width="880" height="134" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605494582981" />
     <state width="1659" height="304" key="GridCell.Tab.0.left/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="1659" height="289" key="GridCell.Tab.0.right" timestamp="1605105381803">
+    <state width="880" height="134" key="GridCell.Tab.0.right" timestamp="1605494582982">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="289" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605105381803" />
+    <state width="880" height="134" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605494582982" />
     <state width="1659" height="304" key="GridCell.Tab.0.right/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
     <state width="702" height="304" key="GridCell.Tab.1.bottom" timestamp="1605001882427">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -240,10 +244,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1063" y="151" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604997615488" />
-    <state x="341" y="120" key="SettingsEditor" timestamp="1605101631215">
+    <state x="341" y="120" key="SettingsEditor" timestamp="1605494567355">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="341" y="120" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1605101631215" />
+    <state x="341" y="120" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1605494567355" />
     <state x="341" y="130" key="SettingsEditor/0.23.1680.937@0.23.1680.937" timestamp="1604977910370" />
     <state width="500" height="449" key="SwitcherDM" timestamp="1604972449512">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -272,10 +276,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1020" y="269" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604931480395" />
-    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup" timestamp="1605102467134">
+    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup" timestamp="1605496122451">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605102467134" />
+    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605496122451" />
     <state x="505" y="228" width="670" height="676" key="search.everywhere.popup/0.23.1680.937@0.23.1680.937" timestamp="1604904144297" />
   </component>
 </project>

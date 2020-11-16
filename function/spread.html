@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    let arr1 = [1, 2, 3, 4];
+    let arr2 = [5, 6, 7, 8];
+
+  let arrCopy = [...arr1];
+    let object = {
+        number: 23,
+        size: 100,
+    };
+
+    let objectCopy = {...object};
+
+    console.log(JSON.stringify(arr1) === JSON.stringify(arrCopy));//true
+    console.log(JSON.stringify(object) === JSON.stringify(objectCopy));//true
+
+    console.log(arr1 === arrCopy);//false
+    console.log(object === objectCopy);//false
+
+    let merged = [...arr1, ...arr2, 10, 11, 12];
+    console.log(merged);
+
+    console.log(Math.max(...arr1, ...arr2, 10, 11, 12));//12
+    console.log(Math.max(...arr1, ...arr2));//8
+
+
+
+
+
+
+</script>
+</html>
