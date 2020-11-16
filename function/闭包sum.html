@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+编写一个像 sum(a)(b) = a+b 这样工作的 sum 函数。
+
+是的，就是这种通过双括号的方式（并不是错误）。
+
+举个例子：
+
+sum(1)(2) = 3
+sum(5)(-1) = 4
+-->
+<script>
+    function sum(a) {
+        return (b) => a + b;
+    }
+    alert (sum(1)(2));
+</script>
+</html>

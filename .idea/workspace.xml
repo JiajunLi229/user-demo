@@ -22,8 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] finished new practice.">
-      <change afterPath="$PROJECT_DIR$/function/spread.html" afterDir="false" />
+    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added and finished new practice.">
+      <change afterPath="$PROJECT_DIR$/function/通过函数筛选.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/闭包sum.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,14 +60,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/set" />
+      <recent name="$PROJECT_DIR$/array-practice" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/function" />
       <recent name="$PROJECT_DIR$/json" />
       <recent name="$PROJECT_DIR$/deconstruction" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/set" />
-      <recent name="$PROJECT_DIR$/array-practice" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,7 +97,7 @@
       <workItem from="1605168604638" duration="3816000" />
       <workItem from="1605493947134" duration="590000" />
       <workItem from="1605494595239" duration="1358000" />
-      <workItem from="1605496188553" duration="260000" />
+      <workItem from="1605496188553" duration="2293000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -133,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605074325404</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[JiajunLi] added and finished new practice.">
+      <created>1605497905936</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605497905936</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +165,8 @@
     <MESSAGE value="[JiajunLi] research map." />
     <MESSAGE value="[JiajunLi] research map creation." />
     <MESSAGE value="[JiajunLi] finished new practice." />
-    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] finished new practice." />
+    <MESSAGE value="[JiajunLi] added and finished new practice." />
+    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added and finished new practice." />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="16" key="#HTML" timestamp="1605496167096">
