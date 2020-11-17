@@ -23,8 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added and finished new practice.">
-      <change afterPath="$PROJECT_DIR$/function/通过函数筛选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/闭包sum.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/function" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -97,7 +95,7 @@
       <workItem from="1605168604638" duration="3816000" />
       <workItem from="1605493947134" duration="590000" />
       <workItem from="1605494595239" duration="1358000" />
-      <workItem from="1605496188553" duration="2293000" />
+      <workItem from="1605496188553" duration="3757000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -141,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605497905936</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[JiajunLi] added and finished new practice.">
+      <created>1605515000464</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605515000464</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,25 +186,29 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="885" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1605080701916" />
-    <state width="880" height="134" key="GridCell.Tab.0.bottom" timestamp="1605494582982">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1659" height="470" key="GridCell.Tab.0.bottom" timestamp="1605539242693">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="880" height="134" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605494582982" />
+    <state width="1659" height="470" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1605539242693" />
     <state width="1659" height="304" key="GridCell.Tab.0.bottom/0.23.1680.937@0.23.1680.937" timestamp="1604992958564" />
-    <state width="880" height="134" key="GridCell.Tab.0.center" timestamp="1605494582981">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1659" height="470" key="GridCell.Tab.0.center" timestamp="1605539242692">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="880" height="134" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605494582981" />
+    <state width="1659" height="470" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1605539242692" />
     <state width="1659" height="304" key="GridCell.Tab.0.center/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="880" height="134" key="GridCell.Tab.0.left" timestamp="1605494582981">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1659" height="470" key="GridCell.Tab.0.left" timestamp="1605539242692">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="880" height="134" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605494582981" />
+    <state width="1659" height="470" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1605539242692" />
     <state width="1659" height="304" key="GridCell.Tab.0.left/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="880" height="134" key="GridCell.Tab.0.right" timestamp="1605494582982">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1659" height="470" key="GridCell.Tab.0.right" timestamp="1605539242693">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="880" height="134" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605494582982" />
+    <state width="1659" height="470" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1605539242693" />
     <state width="1659" height="304" key="GridCell.Tab.0.right/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
     <state width="702" height="304" key="GridCell.Tab.1.bottom" timestamp="1605001882427">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -253,16 +262,21 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1063" y="151" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604997615488" />
-    <state x="341" y="120" key="SettingsEditor" timestamp="1605494567355">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="341" y="140" key="SettingsEditor" timestamp="1605515536697">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="120" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1605494567355" />
+    <state x="341" y="140" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1605515536697" />
     <state x="341" y="130" key="SettingsEditor/0.23.1680.937@0.23.1680.937" timestamp="1604977910370" />
     <state width="500" height="449" key="SwitcherDM" timestamp="1604972449512">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="449" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1604972449512" />
     <state width="500" height="400" key="SwitcherDM/0.23.1680.937@0.23.1680.937" timestamp="1604903503452" />
+    <state x="440" y="261" key="Vcs.Push.Dialog.v2" timestamp="1605514987773">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="261" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1605514987773" />
     <state x="637" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604998978810">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
