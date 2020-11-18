@@ -22,12 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added and finished new practice.">
-      <change afterPath="$PROJECT_DIR$/asnyc/example.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asnyc/promise All.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asnyc/promise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asnyc/基于 promise 的延时.js" afterDir="false" />
+    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added and finished new practices for async.">
+      <change afterPath="$PROJECT_DIR$/asnyc/promiseAllSettled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asnyc/promise All.js" beforeDir="false" afterPath="$PROJECT_DIR$/asnyc/promise All.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="package.json" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -58,6 +58,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -74,7 +76,7 @@
       <recent name="$PROJECT_DIR$/deconstruction" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.promiseAllSettled.js">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -89,8 +91,12 @@
     <configuration name="将 border-left-width 转换成 borderLeftWidth.html" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array-practice/将 border-left-width 转换成 borderLeftWidth.html" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="promiseAllSettled.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/asnyc/promiseAllSettled.js" working-dir="$PROJECT_DIR$/asnyc">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.promiseAllSettled.js" />
         <item itemvalue="Node.js.将 border-left-width 转换成 borderLeftWidth.html" />
       </list>
     </recent_temporary>
@@ -163,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605515000464</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[JiajunLi] added and finished new practices for async.">
+      <created>1605666454740</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605666454741</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +201,8 @@
     <MESSAGE value="[JiajunLi] research map creation." />
     <MESSAGE value="[JiajunLi] finished new practice." />
     <MESSAGE value="[JiajunLi] added and finished new practice." />
-    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added and finished new practice." />
+    <MESSAGE value="[JiajunLi] added and finished new practices for async." />
+    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added and finished new practices for async." />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="16" key="#HTML" timestamp="1605496167096">
@@ -203,28 +217,28 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="885" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1605080701916" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605582336923">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605679031744">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605582336923" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605679031744" />
     <state width="1659" height="470" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1605539242693" />
     <state width="1659" height="304" key="GridCell.Tab.0.bottom/0.23.1680.937@0.23.1680.937" timestamp="1604992958564" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605582336922">
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605679031743">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605582336922" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605679031743" />
     <state width="1659" height="470" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1605539242692" />
     <state width="1659" height="304" key="GridCell.Tab.0.center/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605582336922">
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605679031743">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605582336922" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605679031743" />
     <state width="1659" height="470" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1605539242692" />
     <state width="1659" height="304" key="GridCell.Tab.0.left/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605582336923">
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605679031744">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605582336923" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605679031744" />
     <state width="1659" height="470" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1605539242693" />
     <state width="1659" height="304" key="GridCell.Tab.0.right/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
     <state width="702" height="304" key="GridCell.Tab.1.bottom" timestamp="1605001882427">
@@ -307,10 +321,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="542" y="264" width="596" height="522" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605160175837" />
-    <state width="600" height="431" key="javadoc.popup" timestamp="1605166866946">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1605670117131">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="600" height="440" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1604999776852" />
+    <state width="600" height="440" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605670117131" />
     <state width="600" height="431" key="javadoc.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1605166866946" />
     <state x="1020" y="269" key="refactoring.ChangeSignatureDialog" timestamp="1604931480395">
       <screen x="0" y="0" width="1680" height="1050" />
