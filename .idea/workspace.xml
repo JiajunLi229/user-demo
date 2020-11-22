@@ -23,7 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added and finished new practice for async.">
-      <change afterPath="$PROJECT_DIR$/asnyc/async/用 async/在非 async 函数中调用 async 函数.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/decorator basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/decorator for object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/func.call.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/differences between array function and function declaration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,58 +59,50 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="10.17.46" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/decorator" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/set" />
-      <recent name="$PROJECT_DIR$/array-practice" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/decorator" />
       <recent name="$PROJECT_DIR$/function" />
       <recent name="$PROJECT_DIR$/json" />
       <recent name="$PROJECT_DIR$/deconstruction" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/set" />
+      <recent name="$PROJECT_DIR$/array-practice" />
+    </key>
   </component>
-  <component name="RunManager" selected="Node.js.在非 async 函数中调用 async 函数.js">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="在非 async 函数中调用 async 函数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/asnyc/async/用 async/在非 async 函数中调用 async 函数.js" working-dir="$PROJECT_DIR$/asnyc/async/用 async">
+  <component name="RunManager" selected="Node.js.func.call.js">
+    <configuration name="在非 async 函数中调用 async 函数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/asnyc/用 async/在非 async 函数中调用 async 函数.js" working-dir="$PROJECT_DIR$/asnyc/用 async">
       <method v="2" />
     </configuration>
-    <configuration name="await 来重写.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/asnyc/async/用 async/await 来重写.js" working-dir="$PROJECT_DIR$/asnyc/async/用 async">
+    <configuration name="decorator basic.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/decorator/decorator basic.js" working-dir="$PROJECT_DIR$/decorator">
       <method v="2" />
     </configuration>
-    <configuration name="await.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/asnyc/async/await.js" working-dir="$PROJECT_DIR$/asnyc/async">
+    <configuration name="decorator for object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/decorator/decorator for object.js" working-dir="$PROJECT_DIR$/decorator">
       <method v="2" />
     </configuration>
-    <configuration name="error.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/asnyc/async/error.js" working-dir="$PROJECT_DIR$/asnyc/async">
+    <configuration name="differences between array function and function declaration.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/function/differences between array function and function declaration.js" working-dir="$PROJECT_DIR$/function">
       <method v="2" />
     </configuration>
-    <configuration name="promise All.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/asnyc/promise All.js" working-dir="$PROJECT_DIR$/asnyc">
+    <configuration name="func.call.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/decorator/func.call.js" working-dir="$PROJECT_DIR$/decorator">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.func.call.js" />
+        <item itemvalue="Node.js.decorator for object.js" />
+        <item itemvalue="Node.js.decorator basic.js" />
+        <item itemvalue="Node.js.differences between array function and function declaration.js" />
         <item itemvalue="Node.js.在非 async 函数中调用 async 函数.js" />
-        <item itemvalue="Node.js.await 来重写.js" />
-        <item itemvalue="Node.js.promise All.js" />
-        <item itemvalue="Node.js.error.js" />
-        <item itemvalue="Node.js.await.js" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +127,9 @@
       <workItem from="1605493947134" duration="590000" />
       <workItem from="1605494595239" duration="1358000" />
       <workItem from="1605496188553" duration="3757000" />
+      <workItem from="1605708627626" duration="2713000" />
+      <workItem from="1605754431045" duration="2098000" />
+      <workItem from="1605853219993" duration="4979000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -209,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605692250362</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[JiajunLi] added and finished new practice for async.">
+      <created>1605692658054</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605692658054</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +255,10 @@
     </state>
     <state x="440" y="130" key="#Plugins/0.0.1680.1050@0.0.1680.1050" timestamp="1605686529092" />
     <state x="440" y="139" key="#Plugins/0.23.1680.937@0.23.1680.937" timestamp="1604904179190" />
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605855461637">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605855461637" />
     <state x="885" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605080701916">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -257,78 +267,78 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="336" y="40" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1605692142453" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605692554026">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="146" key="GridCell.Tab.0.bottom" timestamp="1605880417491">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="917" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605690432348" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1605692554026" />
+    <state width="1638" height="146" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605880417491" />
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1605713310503" />
     <state width="1659" height="304" key="GridCell.Tab.0.bottom/0.23.1680.937@0.23.1680.937" timestamp="1604992958564" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605692554025">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="146" key="GridCell.Tab.0.center" timestamp="1605880417490">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="917" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605690432347" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1605692554025" />
+    <state width="1638" height="146" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605880417490" />
+    <state width="1638" height="287" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1605713310500" />
     <state width="1659" height="304" key="GridCell.Tab.0.center/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605692554024">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="146" key="GridCell.Tab.0.left" timestamp="1605880417489">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="917" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605690432346" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1605692554024" />
+    <state width="1638" height="146" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605880417489" />
+    <state width="1638" height="287" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1605713310500" />
     <state width="1659" height="304" key="GridCell.Tab.0.left/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605692554025">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="146" key="GridCell.Tab.0.right" timestamp="1605880417490">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="917" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605690432348" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1605692554025" />
+    <state width="1638" height="146" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605880417490" />
+    <state width="1638" height="287" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1605713310501" />
     <state width="1659" height="304" key="GridCell.Tab.0.right/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="702" height="304" key="GridCell.Tab.1.bottom" timestamp="1605001882427">
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1605862104785">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="702" height="304" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605001882427" />
-    <state width="702" height="304" key="GridCell.Tab.1.center" timestamp="1605001882427">
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605862104785" />
+    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1605862104784">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="702" height="304" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605001882427" />
-    <state width="702" height="304" key="GridCell.Tab.1.left" timestamp="1605001882426">
+    <state width="1638" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605862104784" />
+    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1605862104783">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="702" height="304" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605001882426" />
-    <state width="702" height="304" key="GridCell.Tab.1.right" timestamp="1605001882427">
+    <state width="1638" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605862104783" />
+    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1605862104784">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="702" height="304" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605001882427" />
-    <state width="702" height="304" key="GridCell.Tab.2.bottom" timestamp="1605001882429">
+    <state width="1638" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605862104784" />
+    <state width="1638" height="364" key="GridCell.Tab.2.bottom" timestamp="1605862104787">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="702" height="304" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605001882429" />
-    <state width="702" height="304" key="GridCell.Tab.2.center" timestamp="1605001882428">
+    <state width="1638" height="364" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605862104787" />
+    <state width="1638" height="364" key="GridCell.Tab.2.center" timestamp="1605862104786">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="702" height="304" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605001882428" />
-    <state width="702" height="304" key="GridCell.Tab.2.left" timestamp="1605001882428">
+    <state width="1638" height="364" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605862104786" />
+    <state width="1638" height="364" key="GridCell.Tab.2.left" timestamp="1605862104785">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="702" height="304" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605001882428" />
-    <state width="702" height="304" key="GridCell.Tab.2.right" timestamp="1605001882429">
+    <state width="1638" height="364" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605862104785" />
+    <state width="1638" height="364" key="GridCell.Tab.2.right" timestamp="1605862104786">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="702" height="304" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605001882429" />
-    <state width="702" height="304" key="GridCell.Tab.3.bottom" timestamp="1605001882431">
+    <state width="1638" height="364" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605862104786" />
+    <state width="1638" height="364" key="GridCell.Tab.3.bottom" timestamp="1605862100000">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="702" height="304" key="GridCell.Tab.3.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605001882431" />
-    <state width="702" height="304" key="GridCell.Tab.3.center" timestamp="1605001882430">
+    <state width="1638" height="364" key="GridCell.Tab.3.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605862100000" />
+    <state width="1638" height="364" key="GridCell.Tab.3.center" timestamp="1605862099999">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="702" height="304" key="GridCell.Tab.3.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605001882430" />
-    <state width="702" height="304" key="GridCell.Tab.3.left" timestamp="1605001882429">
+    <state width="1638" height="364" key="GridCell.Tab.3.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605862099999" />
+    <state width="1638" height="364" key="GridCell.Tab.3.left" timestamp="1605862099999">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="702" height="304" key="GridCell.Tab.3.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605001882429" />
-    <state width="702" height="304" key="GridCell.Tab.3.right" timestamp="1605001882430">
+    <state width="1638" height="364" key="GridCell.Tab.3.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605862099999" />
+    <state width="1638" height="364" key="GridCell.Tab.3.right" timestamp="1605862100000">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="702" height="304" key="GridCell.Tab.3.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605001882430" />
+    <state width="1638" height="364" key="GridCell.Tab.3.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605862100000" />
     <state x="1063" y="171" key="RollbackChangesDialog" timestamp="1605692144184">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -358,10 +368,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="648" y="0" width="777" height="859" key="dock-window-1/0.0.1680.1050@0.0.1680.1050" timestamp="1605075414605" />
-    <state x="542" y="264" width="596" height="522" key="find.popup" timestamp="1605160175837">
+    <state x="542" y="228" width="596" height="822" key="find.popup" timestamp="1605860705301">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="542" y="264" width="596" height="522" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605160175837" />
+    <state x="542" y="228" width="596" height="822" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605860705301" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1605670117131">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -371,10 +381,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1020" y="269" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604931480395" />
-    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup" timestamp="1605690125677">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="505" y="248" width="670" height="742" key="search.everywhere.popup" timestamp="1605712945171">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="505" y="230" width="670" height="758" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605690125677" />
+    <state x="505" y="248" width="670" height="742" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1605712945171" />
     <state x="505" y="228" width="670" height="676" key="search.everywhere.popup/0.23.1680.937@0.23.1680.937" timestamp="1604904144297" />
   </component>
 </project>
