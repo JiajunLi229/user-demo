@@ -1,0 +1,201 @@
+openapi: '3.0.0'
+servers:
+  - url: 'http://localhost:8080/'
+info:
+  description: 'Realval platform'
+  version: '1.0.0'
+  title: 'cars API'
+  termsOfService: 'http://localhost:8080/terms-of-use/'
+  contact:
+    name: Jiajun Li
+    email: jiajun.li@hometrack.com.au
+    url: jiajun.li@hometrack.com.au
+paths:
+  /cars:
+    get:
+      summary: Get all cars
+      description: Endpoint to get all cars
+      parameters:
+        - name: color
+          in: query
+          description: select specific cars according to color
+          schema:
+           type: string
+        - name: type
+          in: query
+          description: select specific cars according to type
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Acknowlegement for create instruction
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: car
+                  properties:
+                    id:
+                      type: integer
+                    type:
+                      type: string
+                    color:
+                      type: string
+
+
+
+  /valuations/acceptJob:
+    post:
+      summary: Accept job
+      description: |
+        Endpoint for accepting job
+      tags:
+        - Valuations API
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/acceptJobRequest'
+      responses:
+        '200':
+          description: Accept job request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/acceptJobResponse'
+      security:
+        - bearerAuth: [ ]
+  /valuations/getJob:
+    post:
+      summary: Get job
+      description: |
+        Endpoint for fetching job details
+      tags:
+        - Valuations API
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/getJobRequest'
+      responses:
+        '200':
+          description: Get job request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/getJobResponse'
+      security:
+        - bearerAuth: [ ]
+  /valuations/declineJob:
+    post:
+      summary: Endpoint for declining job
+      description: |
+        Endpoint for declining job
+      tags:
+        - Valuations API
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/declineJobRequest'
+      responses:
+        '200':
+          description: Decline job request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/declineJobResponse'
+      security:
+        - bearerAuth: [ ]
+  /valuations/assignValuer:
+    post:
+      summary: Endpoint for assigning valuer
+      description: |
+        Endpoint for assigning valuer
+      tags:
+        - Valuations API
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/assignValuerRequest'
+      responses:
+        '200':
+          description: Decline job request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/assignValuerResponse'
+      security:
+        - bearerAuth: [ ]
+  /valuations/getDocument:
+    post:
+      summary: Endpoint for fetching document
+      description: |
+        Endpoint for get document
+      tags:
+        - Valuations API
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/getDocumentRequest'
+      responses:
+        '200':
+          description: Get document request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/getDocumentResponse'
+      security:
+        - bearerAuth: [ ]
+
+components:
+  schemas:
+    createInstructionRequest:
+      $ref: './common/createInstructionRequest.yaml'
+    createInstructionResponse:
+      $ref: './common/createInstructionResponse.yaml'
+    acceptJobRequest:
+      $ref: './common/acceptJobRequest.yaml'
+    acceptJobResponse:
+      $ref: './common/acceptJobResponse.yaml'
+    assignValuerRequest:
+      $ref: './common/assignValuerRequest.yaml'
+    assignValuerResponse:
+      $ref: './common/assignValuerResponse.yaml'
+    declineJobRequest:
+      $ref: './common/declineJobRequest.yaml'
+    declineJobResponse:
+      $ref: './common/declineJobResponse.yaml'
+    getJobRequest:
+      $ref: './common/getJobRequest.yaml'
+    getJobResponse:
+      $ref: './common/getJobResponse.yaml'
+    getDocumentRequest:
+      $ref: './common/getDocumentRequest.yaml'
+    getDocumentResponse:
+      $ref: './common/getDocumentResponse.yaml'
+    Error:
+      type: object
+      properties:
+        errors:
+          type: array
+          items:
+            type: object
+            required:
+              - status
+              - title
+            properties:
+              status:
+                type: string
+              title:
+                type: string
+              detail:
+                type: string
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

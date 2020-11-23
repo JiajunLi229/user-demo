@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] change file structure.">
-      <change afterPath="$PROJECT_DIR$/asnyc/setTimeOut.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/this research/this.js" afterDir="false" />
+    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added practice for &quot;this&quot;.">
+      <change afterPath="$PROJECT_DIR$/swagger/car.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +105,22 @@
     <configuration name="this.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/this research/this.js" working-dir="$PROJECT_DIR$/this research">
       <method v="2" />
     </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="" />
+      <option name="jdkPath" value="" />
+      <option name="language" value="" />
+      <option name="specificationPath" value="$PROJECT_DIR$/swagger/car.yaml" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.this.js" />
@@ -142,6 +157,7 @@
       <workItem from="1605853219993" duration="4979000" />
       <workItem from="1606056461420" duration="1752000" />
       <workItem from="1606110352173" duration="281000" />
+      <workItem from="1606118243834" duration="2527000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -234,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606056587980</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[JiajunLi] added practice for &quot;this&quot;.">
+      <created>1606118300568</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606118300568</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +286,8 @@
     <MESSAGE value="[JiajunLi] added and finished new research for async." />
     <MESSAGE value="[JiajunLi] added and finished new practice for async." />
     <MESSAGE value="[JiajunLi] change file structure." />
-    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] change file structure." />
+    <MESSAGE value="[JiajunLi] added practice for &quot;this&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added practice for &quot;this&quot;." />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="16" key="#HTML" timestamp="1605496167096">
