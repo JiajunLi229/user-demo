@@ -22,9 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added practice for &quot;this&quot;.">
-      <change afterPath="$PROJECT_DIR$/swagger/car.yaml" afterDir="false" />
+    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added swagger practice and finished get part.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/car.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/car.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +157,7 @@
       <workItem from="1605853219993" duration="4979000" />
       <workItem from="1606056461420" duration="1752000" />
       <workItem from="1606110352173" duration="281000" />
-      <workItem from="1606118243834" duration="2527000" />
+      <workItem from="1606118243834" duration="5011000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -257,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606118300568</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[JiajunLi] added swagger practice and finished get part.">
+      <created>1606134083848</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606134083848</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +294,8 @@
     <MESSAGE value="[JiajunLi] added and finished new practice for async." />
     <MESSAGE value="[JiajunLi] change file structure." />
     <MESSAGE value="[JiajunLi] added practice for &quot;this&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added practice for &quot;this&quot;." />
+    <MESSAGE value="[JiajunLi] added swagger practice and finished get part." />
+    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added swagger practice and finished get part." />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="16" key="#HTML" timestamp="1605496167096">

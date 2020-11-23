@@ -20,7 +20,7 @@ paths:
           in: query
           description: select specific cars according to color
           schema:
-           type: string
+            type: string
         - name: type
           in: query
           description: select specific cars according to type
@@ -28,7 +28,7 @@ paths:
             type: string
       responses:
         '200':
-          description: Acknowlegement for create instruction
+          description: Successfully get all cars
           content:
             application/json:
               schema:
@@ -42,160 +42,74 @@ paths:
                       type: string
                     color:
                       type: string
+    post:
+      description: create a new car
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - id
+                - type
+                - color
+              properties:
+                id:
+                  type: integer
+                type:
+                  type: string
+                color:
+                  type: string
+      responses:
+        '200':
+          description: Successfully created a new car
+        '400':
+          $ref: '#/components/responses/400Error'
 
+  /cars/{id}:
+    get:
+      description: get car which has specific Id
+      parameters:
+        - name: id
+          in: path #这是什么意思？
+          required: true
+          schema:
+            type: integer
 
+      responses:
+        '200':
+          description: Successfully returned an car according to id
+          content:
+            application/json:
+              schema:
+                properties:
+                  id:
+                    type: integer
+                  type:
+                    type: string
+                  color:
+                    type: string
 
-  /valuations/acceptJob:
-    post:
-      summary: Accept job
-      description: |
-        Endpoint for accepting job
-      tags:
-        - Valuations API
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/acceptJobRequest'
-      responses:
-        '200':
-          description: Accept job request
+        '404':
+          description: requested car not found
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/acceptJobResponse'
-      security:
-        - bearerAuth: [ ]
-  /valuations/getJob:
-    post:
-      summary: Get job
-      description: |
-        Endpoint for fetching job details
-      tags:
-        - Valuations API
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/getJobRequest'
-      responses:
-        '200':
-          description: Get job request
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/getJobResponse'
-      security:
-        - bearerAuth: [ ]
-  /valuations/declineJob:
-    post:
-      summary: Endpoint for declining job
-      description: |
-        Endpoint for declining job
-      tags:
-        - Valuations API
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/declineJobRequest'
-      responses:
-        '200':
-          description: Decline job request
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/declineJobResponse'
-      security:
-        - bearerAuth: [ ]
-  /valuations/assignValuer:
-    post:
-      summary: Endpoint for assigning valuer
-      description: |
-        Endpoint for assigning valuer
-      tags:
-        - Valuations API
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/assignValuerRequest'
-      responses:
-        '200':
-          description: Decline job request
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/assignValuerResponse'
-      security:
-        - bearerAuth: [ ]
-  /valuations/getDocument:
-    post:
-      summary: Endpoint for fetching document
-      description: |
-        Endpoint for get document
-      tags:
-        - Valuations API
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/getDocumentRequest'
-      responses:
-        '200':
-          description: Get document request
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/getDocumentResponse'
-      security:
-        - bearerAuth: [ ]
+                type: object
+                properties:
+                  message:
+                    type: string
 
 components:
-  schemas:
-    createInstructionRequest:
-      $ref: './common/createInstructionRequest.yaml'
-    createInstructionResponse:
-      $ref: './common/createInstructionResponse.yaml'
-    acceptJobRequest:
-      $ref: './common/acceptJobRequest.yaml'
-    acceptJobResponse:
-      $ref: './common/acceptJobResponse.yaml'
-    assignValuerRequest:
-      $ref: './common/assignValuerRequest.yaml'
-    assignValuerResponse:
-      $ref: './common/assignValuerResponse.yaml'
-    declineJobRequest:
-      $ref: './common/declineJobRequest.yaml'
-    declineJobResponse:
-      $ref: './common/declineJobResponse.yaml'
-    getJobRequest:
-      $ref: './common/getJobRequest.yaml'
-    getJobResponse:
-      $ref: './common/getJobResponse.yaml'
-    getDocumentRequest:
-      $ref: './common/getDocumentRequest.yaml'
-    getDocumentResponse:
-      $ref: './common/getDocumentResponse.yaml'
-    Error:
-      type: object
-      properties:
-        errors:
-          type: array
-          items:
+
+  responses:
+    400Error:
+      description: Invalid request
+      content:
+        application/json:
+          schema:
             type: object
-            required:
-              - status
-              - title
             properties:
-              status:
+              message:
                 type: string
-              title:
-                type: string
-              detail:
-                type: string
-  securitySchemes:
-    bearerAuth:
-      type: http
-      scheme: bearer
-      bearerFormat: JWT
