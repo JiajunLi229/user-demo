@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added swagger practice and finished get part.">
+    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added swagger practice and finished post part.">
+      <change afterPath="$PROJECT_DIR$/module/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger/car.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/car.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,25 +79,14 @@
       <recent name="$PROJECT_DIR$/deconstruction" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.this.js">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="decorator basic.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/decorator/decorator basic.js" working-dir="$PROJECT_DIR$/decorator">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.hello.js">
     <configuration name="decorator for object.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/decorator/decorator for object.js" working-dir="$PROJECT_DIR$/decorator">
       <method v="2" />
     </configuration>
     <configuration name="func.call.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/decorator/func.call.js" working-dir="$PROJECT_DIR$/decorator">
+      <method v="2" />
+    </configuration>
+    <configuration name="hello.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/module/hello.js" working-dir="$PROJECT_DIR$/module">
       <method v="2" />
     </configuration>
     <configuration name="setTimeOut.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/asnyc/setTimeOut.js" working-dir="$PROJECT_DIR$/asnyc">
@@ -123,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.hello.js" />
         <item itemvalue="Node.js.this.js" />
         <item itemvalue="Node.js.setTimeOut.js" />
         <item itemvalue="Node.js.func.call.js" />
         <item itemvalue="Node.js.decorator for object.js" />
-        <item itemvalue="Node.js.decorator basic.js" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +147,9 @@
       <workItem from="1605853219993" duration="4979000" />
       <workItem from="1606056461420" duration="1752000" />
       <workItem from="1606110352173" duration="281000" />
-      <workItem from="1606118243834" duration="5011000" />
+      <workItem from="1606118243834" duration="5129000" />
+      <workItem from="1606140037016" duration="2951000" />
+      <workItem from="1606183600491" duration="1294000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -264,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606134083848</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="[JiajunLi] added swagger practice and finished post part.">
+      <created>1606136539228</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606136539228</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +294,8 @@
     <MESSAGE value="[JiajunLi] change file structure." />
     <MESSAGE value="[JiajunLi] added practice for &quot;this&quot;." />
     <MESSAGE value="[JiajunLi] added swagger practice and finished get part." />
-    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added swagger practice and finished get part." />
+    <MESSAGE value="[JiajunLi] added swagger practice and finished post part." />
+    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added swagger practice and finished post part." />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="16" key="#HTML" timestamp="1605496167096">
@@ -323,29 +323,29 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="336" y="40" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1605692142453" />
-    <state width="1638" height="326" key="GridCell.Tab.0.bottom" timestamp="1606110321911">
+    <state width="838" height="326" key="GridCell.Tab.0.bottom" timestamp="1606179382542">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="326" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606097614311" />
-    <state width="1638" height="326" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1606110321911" />
+    <state width="838" height="326" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606141608481" />
+    <state width="838" height="326" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1606179382542" />
     <state width="1659" height="304" key="GridCell.Tab.0.bottom/0.23.1680.937@0.23.1680.937" timestamp="1604992958564" />
-    <state width="1638" height="326" key="GridCell.Tab.0.center" timestamp="1606110321910">
+    <state width="838" height="326" key="GridCell.Tab.0.center" timestamp="1606179382541">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="326" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606097614310" />
-    <state width="1638" height="326" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1606110321910" />
+    <state width="838" height="326" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606141608480" />
+    <state width="838" height="326" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1606179382541" />
     <state width="1659" height="304" key="GridCell.Tab.0.center/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="1638" height="326" key="GridCell.Tab.0.left" timestamp="1606110321910">
+    <state width="838" height="326" key="GridCell.Tab.0.left" timestamp="1606179382541">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="326" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606097614309" />
-    <state width="1638" height="326" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1606110321910" />
+    <state width="838" height="326" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606141608479" />
+    <state width="838" height="326" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1606179382541" />
     <state width="1659" height="304" key="GridCell.Tab.0.left/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="1638" height="326" key="GridCell.Tab.0.right" timestamp="1606110321911">
+    <state width="838" height="326" key="GridCell.Tab.0.right" timestamp="1606179382541">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="326" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606097614310" />
-    <state width="1638" height="326" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1606110321911" />
+    <state width="838" height="326" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606141608481" />
+    <state width="838" height="326" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1606179382541" />
     <state width="1659" height="304" key="GridCell.Tab.0.right/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
     <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1605862104785">
       <screen x="0" y="0" width="1680" height="1050" />
