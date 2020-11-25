@@ -21,7 +21,7 @@ async function loadJson(url) {
     try{
         let UrlResponse = await fetch(url);
         if (UrlResponse.status === 200) {
-            return UrlResponse.json();
+            return JSON.stringify(UrlResponse);
         }
         console.log(UrlResponse.status);
     }catch(err){
@@ -29,4 +29,4 @@ async function loadJson(url) {
     }//如果 fetch 无法建立一个 HTTP 请求，例如网络问题，亦或是请求的网址不存在，那么 promise 就会 reject。异常的 HTTP 状态，例如 404 或 500，不会导致出现 error。
 }
 
-loadJson('https://github.com/fdsafdsfdsfads').catch(console.log);
+loadJson('http://localhost:8080/cars').catch(console.log);

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    (async () => {
+        let response = await fetch('http://localhost:8080/cars/');
+
+        if (response.ok) { // 如果 HTTP 状态码为 200-299
+                           // 获取 response body（此方法会在下面解释）
+            let json = await response.json();
+            console.log(JSON.stringify(json));
+            /*
+            [{"id":1,"type":"BMV","color":"white"},{"id":2,"type":"Benz","color":"black"}]
+             */
+            console.log(JSON.stringify(json[0]));
+            //{"id":1,"type":"BMV","color":"white"}
+        } else {
+            alert("HTTP-Error: " + response.status);
+        }
+    })()
+</script>
+</html>
