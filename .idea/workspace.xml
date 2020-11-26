@@ -22,12 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added module researches.">
-      <change afterPath="$PROJECT_DIR$/http request/fetch-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http request/fetch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http request/fetch.js" afterDir="false" />
+    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added fetch researches.">
+      <change afterPath="$PROJECT_DIR$/Node.js/event loop example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Node.js/example2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asnyc/用 async/await 来重写.js" beforeDir="false" afterPath="$PROJECT_DIR$/asnyc/用 async/await 来重写.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asnyc/await.js" beforeDir="false" afterPath="$PROJECT_DIR$/asnyc/await.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,20 +81,20 @@
       <recent name="$PROJECT_DIR$/array-practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.await 来重写.js">
+  <component name="RunManager" selected="Node.js.await.js">
     <configuration name="await 来重写.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/asnyc/用 async/await 来重写.js" working-dir="$PROJECT_DIR$/asnyc/用 async">
       <method v="2" />
     </configuration>
-    <configuration name="func.call.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/decorator/func.call.js" working-dir="$PROJECT_DIR$/decorator">
+    <configuration name="await.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/asnyc/await.js" working-dir="$PROJECT_DIR$/asnyc">
+      <method v="2" />
+    </configuration>
+    <configuration name="event loop example.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Node.js/event loop example.js" working-dir="$PROJECT_DIR$/Node.js">
+      <method v="2" />
+    </configuration>
+    <configuration name="example2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Node.js/example2.js" working-dir="$PROJECT_DIR$/Node.js">
       <method v="2" />
     </configuration>
     <configuration name="hello.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/module/hello.js" working-dir="$PROJECT_DIR$/module">
-      <method v="2" />
-    </configuration>
-    <configuration name="setTimeOut.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/asnyc/setTimeOut.js" working-dir="$PROJECT_DIR$/asnyc">
-      <method v="2" />
-    </configuration>
-    <configuration name="this.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/this research/this.js" working-dir="$PROJECT_DIR$/this research">
       <method v="2" />
     </configuration>
     <configuration default="true" type="SwaggerCodegen">
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.await.js" />
+        <item itemvalue="Node.js.example2.js" />
+        <item itemvalue="Node.js.event loop example.js" />
         <item itemvalue="Node.js.await 来重写.js" />
         <item itemvalue="Node.js.hello.js" />
-        <item itemvalue="Node.js.this.js" />
-        <item itemvalue="Node.js.setTimeOut.js" />
-        <item itemvalue="Node.js.func.call.js" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +152,9 @@
       <workItem from="1606118243834" duration="5129000" />
       <workItem from="1606140037016" duration="2951000" />
       <workItem from="1606183600491" duration="11459000" />
-      <workItem from="1606269811720" duration="567000" />
+      <workItem from="1606269811720" duration="4801000" />
+      <workItem from="1606295642230" duration="1092000" />
+      <workItem from="1606375710971" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -274,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606185525540</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="[JiajunLi] added fetch researches.">
+      <created>1606271300891</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606271300891</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +315,8 @@
     <MESSAGE value="[JiajunLi] added swagger practice and finished get part." />
     <MESSAGE value="[JiajunLi] added swagger practice and finished post part." />
     <MESSAGE value="[JiajunLi] added module researches." />
-    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added module researches." />
+    <MESSAGE value="[JiajunLi] added fetch researches." />
+    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added fetch researches." />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="16" key="#HTML" timestamp="1605496167096">
@@ -335,29 +344,29 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="336" y="40" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1605692142453" />
-    <state width="792" height="364" key="GridCell.Tab.0.bottom" timestamp="1606201609924">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="383" height="309" key="GridCell.Tab.0.bottom" timestamp="1606295621024">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="792" height="364" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606201609924" />
-    <state width="838" height="326" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1606179382542" />
+    <state width="383" height="309" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1606295621024" />
     <state width="1659" height="304" key="GridCell.Tab.0.bottom/0.23.1680.937@0.23.1680.937" timestamp="1604992958564" />
-    <state width="792" height="364" key="GridCell.Tab.0.center" timestamp="1606201609923">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="383" height="309" key="GridCell.Tab.0.center" timestamp="1606295621023">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="792" height="364" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606201609923" />
-    <state width="838" height="326" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1606179382541" />
+    <state width="383" height="309" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1606295621023" />
     <state width="1659" height="304" key="GridCell.Tab.0.center/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="792" height="364" key="GridCell.Tab.0.left" timestamp="1606201609923">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="383" height="309" key="GridCell.Tab.0.left" timestamp="1606295621022">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="792" height="364" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606201609923" />
-    <state width="838" height="326" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1606179382541" />
+    <state width="383" height="309" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1606295621022" />
     <state width="1659" height="304" key="GridCell.Tab.0.left/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="792" height="364" key="GridCell.Tab.0.right" timestamp="1606201609923">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="383" height="309" key="GridCell.Tab.0.right" timestamp="1606295621023">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="792" height="364" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606201609923" />
-    <state width="838" height="326" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1606179382541" />
+    <state width="383" height="309" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1606295621023" />
     <state width="1659" height="304" key="GridCell.Tab.0.right/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
     <state width="792" height="364" key="GridCell.Tab.1.bottom" timestamp="1606201609925">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -449,11 +458,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1020" y="269" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604931480395" />
-    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup" timestamp="1606206052715">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="505" y="248" width="670" height="742" key="search.everywhere.popup" timestamp="1606291663328">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="505" y="230" width="670" height="758" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606206052715" />
-    <state x="505" y="248" width="670" height="742" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1605712945171" />
+    <state x="505" y="248" width="670" height="742" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1606291663328" />
     <state x="505" y="228" width="670" height="676" key="search.everywhere.popup/0.23.1680.937@0.23.1680.937" timestamp="1604904144297" />
   </component>
   <component name="XDebuggerManager">
