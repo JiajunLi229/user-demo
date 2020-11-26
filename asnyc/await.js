@@ -1,4 +1,4 @@
-async function await() {
+async function shit() {
 
     let promise = new Promise((resolve, reject) => {
         setTimeout(() => resolve("done!"), 100)
@@ -9,3 +9,4 @@ async function await() {
     console.log(result); // "done!"
 }
 
+shit().then();
