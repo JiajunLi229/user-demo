@@ -23,9 +23,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added event loop researches.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node.js/event loop example.js" beforeDir="false" afterPath="$PROJECT_DIR$/Node.js/event loop example.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node.js/example2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Node.js/example2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Object.keys，values，entries/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/ Object.keys，values，entries/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node.js/event loop example.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/Node.js/event loop example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Node.js/example2.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/Node.js/example2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-practice/research against dot and square bracket.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/research against dot and square bracket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-practice/从数组创建键（值）对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/从数组创建键（值）对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-practice/创建一个可扩展的 calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/创建一个可扩展的 calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-practice/将 border-left-width 转换成 borderLeftWidth.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/将 border-left-width 转换成 borderLeftWidth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-practice/数组去重.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/数组去重.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-practice/映射到 names.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/映射到 names.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-practice/映射到对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/映射到对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-practice/过滤范围.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/过滤范围.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asnyc/async.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/async.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asnyc/await.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/await.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asnyc/error.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asnyc/example.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asnyc/promise All.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/promise All.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asnyc/promise.Race.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/promise.Race.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asnyc/promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/promise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asnyc/promiseAllSettled.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/promiseAllSettled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asnyc/setTimeOut.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/setTimeOut.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asnyc/基于 promise 的延时.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/基于 promise 的延时.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asnyc/用 async/await 来重写.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/用 async/await 来重写.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asnyc/用 async/在非 async 函数中调用 async 函数.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/用 async/在非 async 函数中调用 async 函数.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deconstruction-practice/最高薪资.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction-practice/最高薪资.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deconstruction-practice/解构赋值.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction-practice/解构赋值.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deconstruction/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deconstruction/element selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/element selection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deconstruction/function as default value.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/function as default value.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deconstruction/function with many parameters.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/function with many parameters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deconstruction/iterate key-value in entries of object.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/iterate key-value in entries of object.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deconstruction/nested deconstruction.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/nested deconstruction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deconstruction/object deconstruction.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/object deconstruction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deconstruction/rest parameter.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/rest parameter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator/decorator basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/decorator/decorator basic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator/decorator for object.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/decorator/decorator for object.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator/func.call.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/decorator/func.call.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/differences between array function and function declaration.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/function/differences between array function and function declaration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/spread.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/function/spread.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/通过函数筛选.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/function/通过函数筛选.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/闭包sum.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/function/闭包sum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http request/fetch-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/http request/fetch-post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http request/fetch.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/http request/fetch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http request/fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/http request/fetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/json basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/json/json basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/replacer.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/json/replacer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/reviver.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/json/reviver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/toJSON.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/json/toJSON.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/排除反向引用.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/json/排除反向引用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/create map.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/map/create map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/map basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/map/map basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/module/hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/module/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/set/set basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/set/set basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/set/过滤数组中的唯一元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/set/过滤数组中的唯一元素.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/set/迭代键.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/set/迭代键.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/this research/this.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/this research/this.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +98,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/asnyc/promise.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/JavaScript/asnyc/promise.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1k2cw4fsOZ78sxAs4I8Y8SaCTkv" />
   <component name="ProjectViewState">
@@ -66,6 +119,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JavaScript" />
+      <recent name="$PROJECT_DIR$/node_modules" />
+      <recent name="$PROJECT_DIR$/asnyc" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/set" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/http request" />
       <recent name="$PROJECT_DIR$/decorator" />
@@ -73,27 +133,32 @@
       <recent name="$PROJECT_DIR$/json" />
       <recent name="$PROJECT_DIR$/deconstruction" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/asnyc" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/set" />
-      <recent name="$PROJECT_DIR$/array-practice" />
-    </key>
   </component>
   <component name="RunManager" selected="Node.js.await.js">
-    <configuration name="await 来重写.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/asnyc/用 async/await 来重写.js" working-dir="$PROJECT_DIR$/asnyc/用 async">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="await 来重写.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/asnyc/用 async/await 来重写.js" working-dir="$PROJECT_DIR$/JavaScript/asnyc/用 async">
       <method v="2" />
     </configuration>
-    <configuration name="await.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/asnyc/await.js" working-dir="$PROJECT_DIR$/asnyc">
+    <configuration name="await.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/asnyc/await.js" working-dir="$PROJECT_DIR$/JavaScript/asnyc">
       <method v="2" />
     </configuration>
-    <configuration name="event loop example.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Node.js/event loop example.js" working-dir="$PROJECT_DIR$/Node.js">
+    <configuration name="event loop example.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/Node.js/event loop example.js" working-dir="$PROJECT_DIR$/JavaScript/Node.js">
       <method v="2" />
     </configuration>
-    <configuration name="example2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Node.js/example2.js" working-dir="$PROJECT_DIR$/Node.js">
+    <configuration name="example2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/Node.js/example2.js" working-dir="$PROJECT_DIR$/JavaScript/Node.js">
       <method v="2" />
     </configuration>
-    <configuration name="hello.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/module/hello.js" working-dir="$PROJECT_DIR$/module">
+    <configuration name="hello.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/module/hello.js" working-dir="$PROJECT_DIR$/JavaScript/module">
       <method v="2" />
     </configuration>
     <configuration default="true" type="SwaggerCodegen">
@@ -157,6 +222,7 @@
       <workItem from="1606385191524" duration="257000" />
       <workItem from="1606574469541" duration="170000" />
       <workItem from="1606703839447" duration="2627000" />
+      <workItem from="1606916571370" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -291,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606385422981</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="[JiajunLi] added event loop researches.">
+      <created>1606916601131</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606916601131</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +552,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/asnyc/用 async/await 来重写.js</url>
+          <url>file://$PROJECT_DIR$/JavaScript/asnyc/用 async/await 来重写.js</url>
           <line>23</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
