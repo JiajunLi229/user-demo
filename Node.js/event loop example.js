@@ -14,4 +14,4 @@ setTimeout(() => {
 
 fs.readFile('test.js', () => {
     wait(100)
-});
+});z

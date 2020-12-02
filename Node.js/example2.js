@@ -1,18 +1,22 @@
-const fs = require('fs')
+console.log(1);
 
+setTimeout(() => {// H1
+    console.log(2);//
+    Promise.resolve().then(() => {
+        console.log(3)//W2
+    });
+});
 
-setTimeout(() => console.log(1),1000);
-
-setImmediate(() => {
-    console.log(2)
-})
-
-fs.readFile('test', () => {
-    console.log(3)
-})
-
-process.nextTick(() => {
+new Promise((resolve, reject) => {
     console.log(4)
+    resolve(5)//W1
+}).then((data) => {
+    console.log(data);
 })
 
-console.log(5)
+setTimeout(() => {//H2
+    console.log(6);
+})
+
+console.log(7);
+//1 4 7 5 2 3 6
