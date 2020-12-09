@@ -22,63 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added event loop researches.">
-      <change beforePath="$PROJECT_DIR$/ Object.keys，values，entries/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/ Object.keys，values，entries/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node.js/event loop example.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/Node.js/event loop example.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Node.js/example2.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/Node.js/example2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array-practice/research against dot and square bracket.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/research against dot and square bracket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array-practice/从数组创建键（值）对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/从数组创建键（值）对象.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array-practice/创建一个可扩展的 calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/创建一个可扩展的 calculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array-practice/将 border-left-width 转换成 borderLeftWidth.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/将 border-left-width 转换成 borderLeftWidth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array-practice/数组去重.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/数组去重.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array-practice/映射到 names.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/映射到 names.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array-practice/映射到对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/映射到对象.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array-practice/过滤范围.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/array-practice/过滤范围.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asnyc/async.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/async.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asnyc/await.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/await.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asnyc/error.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/error.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asnyc/example.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/example.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asnyc/promise All.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/promise All.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asnyc/promise.Race.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/promise.Race.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asnyc/promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/promise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asnyc/promiseAllSettled.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/promiseAllSettled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asnyc/setTimeOut.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/setTimeOut.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asnyc/基于 promise 的延时.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/基于 promise 的延时.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asnyc/用 async/await 来重写.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/用 async/await 来重写.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asnyc/用 async/在非 async 函数中调用 async 函数.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/asnyc/用 async/在非 async 函数中调用 async 函数.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deconstruction-practice/最高薪资.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction-practice/最高薪资.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deconstruction-practice/解构赋值.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction-practice/解构赋值.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deconstruction/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deconstruction/element selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/element selection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deconstruction/function as default value.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/function as default value.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deconstruction/function with many parameters.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/function with many parameters.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deconstruction/iterate key-value in entries of object.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/iterate key-value in entries of object.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deconstruction/nested deconstruction.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/nested deconstruction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deconstruction/object deconstruction.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/object deconstruction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deconstruction/rest parameter.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/deconstruction/rest parameter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator/decorator basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/decorator/decorator basic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator/decorator for object.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/decorator/decorator for object.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator/func.call.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/decorator/func.call.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/differences between array function and function declaration.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/function/differences between array function and function declaration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/spread.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/function/spread.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/通过函数筛选.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/function/通过函数筛选.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/闭包sum.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/function/闭包sum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http request/fetch-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/http request/fetch-post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http request/fetch.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/http request/fetch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http request/fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/http request/fetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/json basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/json/json basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/replacer.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/json/replacer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/reviver.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/json/reviver.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/toJSON.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/json/toJSON.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/排除反向引用.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/json/排除反向引用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/create map.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/map/create map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map/map basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/map/map basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/module/hello.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/module/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/set basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/set/set basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/过滤数组中的唯一元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/set/过滤数组中的唯一元素.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/set/迭代键.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/set/迭代键.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/this research/this.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/this research/this.js" afterDir="false" />
+    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] changed structure">
+      <change afterPath="$PROJECT_DIR$/TypeScript/basic type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +38,7 @@
         <option value="HTML File" />
         <option value="package.json" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -115,7 +63,8 @@
     <property name="javascript.nodejs.core.library.typings.version" value="10.17.46" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/http request" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -135,17 +84,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.await.js">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="await 来重写.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/asnyc/用 async/await 来重写.js" working-dir="$PROJECT_DIR$/JavaScript/asnyc/用 async">
       <method v="2" />
     </configuration>
@@ -222,7 +160,17 @@
       <workItem from="1606385191524" duration="257000" />
       <workItem from="1606574469541" duration="170000" />
       <workItem from="1606703839447" duration="2627000" />
-      <workItem from="1606916571370" duration="608000" />
+      <workItem from="1606916571370" duration="7879000" />
+      <workItem from="1607047634645" duration="667000" />
+      <workItem from="1607074492133" duration="599000" />
+      <workItem from="1607135599051" duration="365000" />
+      <workItem from="1607177996055" duration="518000" />
+      <workItem from="1607251853753" duration="1773000" />
+      <workItem from="1607324122941" duration="656000" />
+      <workItem from="1607405325405" duration="3694000" />
+      <workItem from="1607429015987" duration="458000" />
+      <workItem from="1607437328640" duration="1281000" />
+      <workItem from="1607483082008" duration="1858000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -364,11 +312,23 @@
       <option name="project" value="LOCAL" />
       <updated>1606916601131</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="[JiajunLi] changed structure">
+      <created>1606917202199</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1606917202199</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/TypeScript/basic type.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -399,17 +359,18 @@
     <MESSAGE value="[JiajunLi] added module researches." />
     <MESSAGE value="[JiajunLi] added fetch researches." />
     <MESSAGE value="[JiajunLi] added event loop researches." />
-    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added event loop researches." />
+    <MESSAGE value="[JiajunLi] changed structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] changed structure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="16" key="#HTML" timestamp="1605496167096">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="98" y="16" key="#HTML/0.0.1680.1050@0.0.1680.1050" timestamp="1605496167096" />
-    <state x="440" y="130" key="#Plugins" timestamp="1605686529092">
+    <state x="440" y="130" key="#Plugins" timestamp="1607483155884">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="130" key="#Plugins/0.0.1680.1050@0.0.1680.1050" timestamp="1605686529092" />
+    <state x="440" y="130" key="#Plugins/0.0.1680.1050@0.0.1680.1050" timestamp="1607483155884" />
     <state x="440" y="139" key="#Plugins/0.23.1680.937@0.23.1680.937" timestamp="1604904179190" />
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605855461637">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -504,10 +465,10 @@
     </state>
     <state x="1063" y="151" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606186864124" />
     <state x="1063" y="171" key="RollbackChangesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1605692144184" />
-    <state x="341" y="120" key="SettingsEditor" timestamp="1605686626255">
+    <state x="341" y="120" key="SettingsEditor" timestamp="1607355331099">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="341" y="120" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1605686626255" />
+    <state x="341" y="120" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1607355331099" />
     <state x="341" y="140" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1605515536697" />
     <state x="341" y="130" key="SettingsEditor/0.23.1680.937@0.23.1680.937" timestamp="1604977910370" />
     <state width="500" height="449" key="SwitcherDM" timestamp="1604972449512">
@@ -532,19 +493,19 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="542" y="228" width="596" height="822" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606097214479" />
-    <state width="600" height="440" key="javadoc.popup" timestamp="1605670117131">
+    <state width="600" height="440" key="javadoc.popup" timestamp="1607411855028">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="600" height="440" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605670117131" />
+    <state width="600" height="440" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1607411855028" />
     <state width="600" height="431" key="javadoc.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1605166866946" />
     <state x="1020" y="269" key="refactoring.ChangeSignatureDialog" timestamp="1604931480395">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1020" y="269" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604931480395" />
-    <state x="505" y="248" width="670" height="742" key="search.everywhere.popup" timestamp="1606291663328">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup" timestamp="1607483159260">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606206052715" />
+    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1607483159260" />
     <state x="505" y="248" width="670" height="742" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1606291663328" />
     <state x="505" y="228" width="670" height="676" key="search.everywhere.popup/0.23.1680.937@0.23.1680.937" timestamp="1604904144297" />
   </component>
