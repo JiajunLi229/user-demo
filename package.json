@@ -1,7 +1,16 @@
 {
-  "name": "personal practice",
+  "name": "hello",
   "version": "1.0.0",
   "dependencies": {
+    "express": "^4.17.1",
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@jest/globals": "^26.6.2",
+    "axios": "^0.21.0",
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }

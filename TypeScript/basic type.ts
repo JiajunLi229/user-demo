@@ -5,6 +5,10 @@ let isDone: boolean = false;
 let decimal: number = 6;
 
 //string
+function add(a,b) {
+    return a + b;
+}
+
 let color: string = 'blue';
 let age: number = 12;
 let sentence: string =

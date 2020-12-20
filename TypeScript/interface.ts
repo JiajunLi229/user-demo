@@ -44,3 +44,14 @@ function createSquare(config: SquareConfig): { color: string } {
 let mySquare = createSquare({ profession: "black" });
 
 console.log(mySquare)
+
+//-----------------------------------
+interface IEmployee {
+    empCode: number;
+    empName: string;
+    getSalary: (number) => number; // arrow function
+    getManagerName(number): string;
+}
+
+
+let jiajun : IEmployee = (empCode: 9, empName: "dick", getSalary: 8, getManagerName())

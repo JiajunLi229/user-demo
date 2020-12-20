@@ -22,10 +22,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] changed structure">
-      <change afterPath="$PROJECT_DIR$/TypeScript/basic type.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TypeScript/interface.ts" afterDir="false" />
+    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added javascript stuff.">
+      <change afterPath="$PROJECT_DIR$/Jest/gettingStarted/__tests__/mockCallBack.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jest/gettingStarted/forEach.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jest/mockModules/__tests__/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jest/mockModules/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express/park demo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express/park demo/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express/park demo/segFault.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/basic type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/basic type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +45,8 @@
       <list>
         <option value="HTML File" />
         <option value="package.json" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -62,18 +70,20 @@
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="10.17.46" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/http request" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Jest/gettingStarted" />
       <recent name="$PROJECT_DIR$/JavaScript" />
       <recent name="$PROJECT_DIR$/node_modules" />
       <recent name="$PROJECT_DIR$/asnyc" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/set" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/http request" />
@@ -83,20 +93,53 @@
       <recent name="$PROJECT_DIR$/deconstruction" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.await.js">
-    <configuration name="await 来重写.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/asnyc/用 async/await 来重写.js" working-dir="$PROJECT_DIR$/JavaScript/asnyc/用 async">
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="example test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/Jest/__tests__/mockCallBack.test.js" />
+      <test-names>
+        <test-name value="example test" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="await.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/asnyc/await.js" working-dir="$PROJECT_DIR$/JavaScript/asnyc">
+    <configuration name="example test.boring test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/Jest/__tests__/mockCallBack.test.js" />
+      <test-names>
+        <test-name value="example test" />
+        <test-name value="boring test" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="event loop example.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/Node.js/event loop example.js" working-dir="$PROJECT_DIR$/JavaScript/Node.js">
+    <configuration name="promiseSum.for number.should return correct sum result" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/Jest/promiseSum.test.js" />
+      <test-names>
+        <test-name value="promiseSum" />
+        <test-name value="for number" />
+        <test-name value="should return correct sum result" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="example2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/Node.js/example2.js" working-dir="$PROJECT_DIR$/JavaScript/Node.js">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express/park demo/index.js" working-dir="$PROJECT_DIR$/express/park demo">
       <method v="2" />
     </configuration>
-    <configuration name="hello.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript/module/hello.js" working-dir="$PROJECT_DIR$/JavaScript/module">
+    <configuration name="segFault.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express/park demo/segFault.js" working-dir="$PROJECT_DIR$/express/park demo">
       <method v="2" />
     </configuration>
     <configuration default="true" type="SwaggerCodegen">
@@ -117,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.await.js" />
-        <item itemvalue="Node.js.example2.js" />
-        <item itemvalue="Node.js.event loop example.js" />
-        <item itemvalue="Node.js.await 来重写.js" />
-        <item itemvalue="Node.js.hello.js" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.segFault.js" />
+        <item itemvalue="Jest.example test.boring test" />
+        <item itemvalue="Jest.example test" />
+        <item itemvalue="Jest.promiseSum.for number.should return correct sum result" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +213,14 @@
       <workItem from="1607405325405" duration="3694000" />
       <workItem from="1607429015987" duration="458000" />
       <workItem from="1607437328640" duration="1281000" />
-      <workItem from="1607483082008" duration="1858000" />
+      <workItem from="1607483082008" duration="7814000" />
+      <workItem from="1607671767409" duration="957000" />
+      <workItem from="1607880243356" duration="259000" />
+      <workItem from="1607922925386" duration="19000" />
+      <workItem from="1608040601415" duration="6810000" />
+      <workItem from="1608165183815" duration="3816000" />
+      <workItem from="1608257968504" duration="765000" />
+      <workItem from="1608447711791" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -319,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606917202199</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="[JiajunLi] added javascript stuff.">
+      <created>1607495134376</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607495134376</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +417,8 @@
     <MESSAGE value="[JiajunLi] added fetch researches." />
     <MESSAGE value="[JiajunLi] added event loop researches." />
     <MESSAGE value="[JiajunLi] changed structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] changed structure" />
+    <MESSAGE value="[JiajunLi] added javascript stuff." />
+    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added javascript stuff." />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="16" key="#HTML" timestamp="1605496167096">
@@ -384,33 +442,37 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="472" y="196" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606056802949" />
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607527263090">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1607527263090" />
     <state x="336" y="40" key="DiffContextDialog" timestamp="1605692142453">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="336" y="40" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1605692142453" />
-    <state width="383" height="309" key="GridCell.Tab.0.bottom" timestamp="1606295621024">
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1608079662176">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="792" height="364" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606201609924" />
-    <state width="383" height="309" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1606295621024" />
+    <state width="1638" height="303" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608045973658" />
+    <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1608079662176" />
     <state width="1659" height="304" key="GridCell.Tab.0.bottom/0.23.1680.937@0.23.1680.937" timestamp="1604992958564" />
-    <state width="383" height="309" key="GridCell.Tab.0.center" timestamp="1606295621023">
+    <state width="1638" height="287" key="GridCell.Tab.0.center" timestamp="1608079662175">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="792" height="364" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606201609923" />
-    <state width="383" height="309" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1606295621023" />
+    <state width="1638" height="303" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608045973656" />
+    <state width="1638" height="287" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1608079662175" />
     <state width="1659" height="304" key="GridCell.Tab.0.center/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="383" height="309" key="GridCell.Tab.0.left" timestamp="1606295621022">
+    <state width="1638" height="287" key="GridCell.Tab.0.left" timestamp="1608079662173">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="792" height="364" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606201609923" />
-    <state width="383" height="309" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1606295621022" />
+    <state width="1638" height="303" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608045973655" />
+    <state width="1638" height="287" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1608079662173" />
     <state width="1659" height="304" key="GridCell.Tab.0.left/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="383" height="309" key="GridCell.Tab.0.right" timestamp="1606295621023">
+    <state width="1638" height="287" key="GridCell.Tab.0.right" timestamp="1608079662176">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="792" height="364" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606201609923" />
-    <state width="383" height="309" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1606295621023" />
+    <state width="1638" height="303" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608045973657" />
+    <state width="1638" height="287" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1608079662176" />
     <state width="1659" height="304" key="GridCell.Tab.0.right/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
     <state width="792" height="364" key="GridCell.Tab.1.bottom" timestamp="1606201609925">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -476,10 +538,10 @@
     </state>
     <state width="500" height="449" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1604972449512" />
     <state width="500" height="400" key="SwitcherDM/0.23.1680.937@0.23.1680.937" timestamp="1604903503452" />
-    <state x="440" y="261" key="Vcs.Push.Dialog.v2" timestamp="1606056555450">
+    <state x="440" y="261" key="Vcs.Push.Dialog.v2" timestamp="1607495100673">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="261" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606056555450" />
+    <state x="440" y="261" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1607495100673" />
     <state x="637" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604998978810">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -502,10 +564,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1020" y="269" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604931480395" />
-    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup" timestamp="1607483159260">
+    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup" timestamp="1608045106664">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1607483159260" />
+    <state x="505" y="230" width="670" height="758" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1608045106664" />
     <state x="505" y="248" width="670" height="742" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1606291663328" />
     <state x="505" y="228" width="670" height="676" key="search.everywhere.popup/0.23.1680.937@0.23.1680.937" timestamp="1604904144297" />
   </component>
@@ -516,6 +578,10 @@
           <url>file://$PROJECT_DIR$/JavaScript/asnyc/用 async/await 来重写.js</url>
           <line>23</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/express/park demo/segFault.js</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
