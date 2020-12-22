@@ -22,18 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added javascript stuff.">
-      <change afterPath="$PROJECT_DIR$/Jest/gettingStarted/__tests__/mockCallBack.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jest/gettingStarted/forEach.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jest/mockModules/__tests__/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jest/mockModules/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/park demo/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/park demo/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/park demo/segFault.js" afterDir="false" />
+    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added express research.">
+      <change afterPath="$PROJECT_DIR$/good practice coding/replace DNA.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TypeScript/basic type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/basic type.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TypeScript/interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +36,8 @@
       <list>
         <option value="HTML File" />
         <option value="package.json" />
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -221,6 +212,9 @@
       <workItem from="1608165183815" duration="3816000" />
       <workItem from="1608257968504" duration="765000" />
       <workItem from="1608447711791" duration="29000" />
+      <workItem from="1608470427491" duration="6670000" />
+      <workItem from="1608606595877" duration="588000" />
+      <workItem from="1608646978779" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -376,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607495134376</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="[JiajunLi] added express research.">
+      <created>1608470493537</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1608470493537</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +419,8 @@
     <MESSAGE value="[JiajunLi] added event loop researches." />
     <MESSAGE value="[JiajunLi] changed structure" />
     <MESSAGE value="[JiajunLi] added javascript stuff." />
-    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added javascript stuff." />
+    <MESSAGE value="[JiajunLi] added express research." />
+    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added express research." />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="16" key="#HTML" timestamp="1605496167096">
