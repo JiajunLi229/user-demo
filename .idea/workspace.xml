@@ -23,8 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added express research.">
-      <change afterPath="$PROJECT_DIR$/good practice coding/replace DNA.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express/bookDemo/bookService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express/bookDemo/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express/bookDemo/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express/bookDemo/routers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express/bookDemo/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express/park demo/carService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express/park demo/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express/park demo/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express/park demo/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +57,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/JavaScript/asnyc/promise.js" root0="SKIP_INSPECTION" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1k2cw4fsOZ78sxAs4I8Y8SaCTkv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -64,7 +80,7 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -84,7 +100,18 @@
       <recent name="$PROJECT_DIR$/deconstruction" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.index.js">
+  <component name="RunManager" selected="Node.js.index.ts">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="example test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -112,22 +139,13 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="promiseSum.for number.should return correct sum result" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/Jest/promiseSum.test.js" />
-      <test-names>
-        <test-name value="promiseSum" />
-        <test-name value="for number" />
-        <test-name value="should return correct sum result" />
-      </test-names>
+    <configuration name="index.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express/park demo/index.ts" working-dir="$PROJECT_DIR$/express/park demo">
       <method v="2" />
     </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express/park demo/index.js" working-dir="$PROJECT_DIR$/express/park demo">
+    <configuration name="index.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express/park demo/index.ts" working-dir="$PROJECT_DIR$/express/park demo">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express/park demo/index.ts" working-dir="$PROJECT_DIR$/express/park demo">
       <method v="2" />
     </configuration>
     <configuration name="segFault.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express/park demo/segFault.js" working-dir="$PROJECT_DIR$/express/park demo">
@@ -151,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.index.ts" />
+        <item itemvalue="Node.js.index.ts" />
+        <item itemvalue="Node.js.index.ts" />
         <item itemvalue="Node.js.segFault.js" />
         <item itemvalue="Jest.example test.boring test" />
-        <item itemvalue="Jest.example test" />
-        <item itemvalue="Jest.promiseSum.for number.should return correct sum result" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +232,7 @@
       <workItem from="1608447711791" duration="29000" />
       <workItem from="1608470427491" duration="6670000" />
       <workItem from="1608606595877" duration="588000" />
-      <workItem from="1608646978779" duration="247000" />
+      <workItem from="1608646978779" duration="15656000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -452,28 +470,28 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="336" y="40" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1605692142453" />
-    <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1608079662176">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="302" key="GridCell.Tab.0.bottom" timestamp="1608878490281">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="303" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608045973658" />
+    <state width="1638" height="302" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608878490281" />
     <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1608079662176" />
     <state width="1659" height="304" key="GridCell.Tab.0.bottom/0.23.1680.937@0.23.1680.937" timestamp="1604992958564" />
-    <state width="1638" height="287" key="GridCell.Tab.0.center" timestamp="1608079662175">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="302" key="GridCell.Tab.0.center" timestamp="1608878490279">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="303" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608045973656" />
+    <state width="1638" height="302" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608878490279" />
     <state width="1638" height="287" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1608079662175" />
     <state width="1659" height="304" key="GridCell.Tab.0.center/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="1638" height="287" key="GridCell.Tab.0.left" timestamp="1608079662173">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="302" key="GridCell.Tab.0.left" timestamp="1608878490278">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="303" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608045973655" />
+    <state width="1638" height="302" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608878490278" />
     <state width="1638" height="287" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1608079662173" />
     <state width="1659" height="304" key="GridCell.Tab.0.left/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="1638" height="287" key="GridCell.Tab.0.right" timestamp="1608079662176">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="302" key="GridCell.Tab.0.right" timestamp="1608878490280">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="303" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608045973657" />
+    <state width="1638" height="302" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608878490280" />
     <state width="1638" height="287" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1608079662176" />
     <state width="1659" height="304" key="GridCell.Tab.0.right/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
     <state width="792" height="364" key="GridCell.Tab.1.bottom" timestamp="1606201609925">
@@ -529,10 +547,10 @@
     </state>
     <state x="1063" y="151" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606186864124" />
     <state x="1063" y="171" key="RollbackChangesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1605692144184" />
-    <state x="341" y="120" key="SettingsEditor" timestamp="1607355331099">
+    <state x="341" y="120" key="SettingsEditor" timestamp="1608683969179">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="341" y="120" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1607355331099" />
+    <state x="341" y="120" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1608683969179" />
     <state x="341" y="140" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1605515536697" />
     <state x="341" y="130" key="SettingsEditor/0.23.1680.937@0.23.1680.937" timestamp="1604977910370" />
     <state width="500" height="449" key="SwitcherDM" timestamp="1604972449512">
