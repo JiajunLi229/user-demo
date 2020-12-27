@@ -12,7 +12,7 @@ const users: user[] = [userExample];
 
 function nameAndAgeCheck(name, age) {
   if (name.length > 100 || +age > 100 || +age < 0) {
-    throw new Error ("incorrect input of name or age");
+    throw new Error("incorrect input of name or age");
   }
 }
 

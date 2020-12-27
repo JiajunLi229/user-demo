@@ -15,7 +15,7 @@ router.post("/", function (req, res) {
   try {
     res.send(createUser(req.body));
   } catch (e) {
-    return res.status(400).json({ error : e.message });
+    return res.status(400).json({ error: e.message });
   }
 })
 
@@ -33,7 +33,7 @@ router.put("/:id", function (req, res) {
   try {
     res.send(update({ ...req.body, id }));
   } catch (e) {
-    return res.status(400).json({ error : e.message });
+    return res.status(400).json({ error: e.message });
   }
 })
 
@@ -43,7 +43,7 @@ router.patch("/:id", function (req, res) {
   try {
     res.send(updateSingleProperty({ ...req.body, id }));
   } catch (e) {
-    return res.status(400).json({ error : e.message });
+    return res.status(400).json({ error: e.message });
   }
 })
 
