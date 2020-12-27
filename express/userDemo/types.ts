@@ -7,5 +7,5 @@ export type book = {
 export type user = {
   id: string,
   name: string,
-  age: string
+  age: number
 }

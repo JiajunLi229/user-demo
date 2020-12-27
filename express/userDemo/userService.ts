@@ -5,13 +5,13 @@ const { v4: uuidv4 } = require('uuid')
 const userExample: user = {
   id: "1",
   name: "example",
-  age: "24"
+  age: 24
 }
 
 const users: user[] = [userExample];
 
 function nameAndAgeCheck(name, age) {
-  if (name.length > 100 || +age > 100 || +age < 0) {
+  if (name.length > 100 || age > 100 || age < 0 || typeof age === "string") {
     throw new Error("incorrect input of name or age");
   }
 }
