@@ -11,7 +11,7 @@ const userExample: user = {
 const users: user[] = [userExample];
 
 function nameAndAgeCheck(name, age) {
-  if (name.length > 100 || age > 100 || age < 0 || typeof age === "string") {
+  if (name.length > 100 || age > 100 || age < 0 || typeof age === "string" || typeof name === "number") {
     throw new Error("incorrect input of name or age");
   }
 }
@@ -39,7 +39,7 @@ export function deleteById(id) {
   return users.splice(IndexOfElementToDelete, 1);
 }
 
-export function update(userInformation : user) {
+export function update(userInformation: user) {
   const { name, age } = userInformation;
   nameAndAgeCheck(name, age);
   const userToUpdate = getUserById(userInformation.id);
@@ -49,7 +49,7 @@ export function update(userInformation : user) {
   return userToUpdate;
 }
 
-export function updateSingleProperty(userInformation : user) {
+export function updateSingleProperty(userInformation: user) {
   const { name, age } = userInformation;
   nameAndAgeCheck(name, age);
   const userToUpdate = getUserById(userInformation.id);
