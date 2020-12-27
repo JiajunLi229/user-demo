@@ -1,9 +1,8 @@
 let express = require('express')
-let bookRouter = require('./routers')
 let userRouter = require('./routers')
 let app = express();
-
+app.use(express.json());
 let port = 3000;
-app.use('/book',bookRouter);
 
+app.use('/user', userRouter);
 app.listen(port, console.log(`baby I'm ready on port ${port}`));

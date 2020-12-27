@@ -22,19 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added express research.">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/bookDemo/bookService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/bookDemo/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/bookDemo/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/bookDemo/routers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/bookDemo/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/park demo/carService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/park demo/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/park demo/types.ts" afterDir="false" />
+    <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added user and book Demo for homework.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express/bookDemo/userService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/express/park demo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express/bookDemo/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/express/bookDemo/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express/bookDemo/routers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/express/bookDemo/routers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express/bookDemo/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/express/bookDemo/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +226,7 @@
       <workItem from="1608447711791" duration="29000" />
       <workItem from="1608470427491" duration="6670000" />
       <workItem from="1608606595877" duration="588000" />
-      <workItem from="1608646978779" duration="15656000" />
+      <workItem from="1608646978779" duration="24836000" />
     </task>
     <task id="LOCAL-00001" summary="[JiajunLi] added new practice.">
       <created>1604977990209</created>
@@ -395,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608470493537</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="[JiajunLi] added user and book Demo for homework.">
+      <created>1608953854506</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1608953854508</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +439,8 @@
     <MESSAGE value="[JiajunLi] changed structure" />
     <MESSAGE value="[JiajunLi] added javascript stuff." />
     <MESSAGE value="[JiajunLi] added express research." />
-    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added express research." />
+    <MESSAGE value="[JiajunLi] added user and book Demo for homework." />
+    <option name="LAST_COMMIT_MESSAGE" value="[JiajunLi] added user and book Demo for homework." />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="16" key="#HTML" timestamp="1605496167096">
@@ -470,28 +472,28 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="336" y="40" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1605692142453" />
-    <state width="1638" height="302" key="GridCell.Tab.0.bottom" timestamp="1608878490281">
+    <state width="1638" height="302" key="GridCell.Tab.0.bottom" timestamp="1608988358229">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="302" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608878490281" />
+    <state width="1638" height="302" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608988358229" />
     <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1608079662176" />
     <state width="1659" height="304" key="GridCell.Tab.0.bottom/0.23.1680.937@0.23.1680.937" timestamp="1604992958564" />
-    <state width="1638" height="302" key="GridCell.Tab.0.center" timestamp="1608878490279">
+    <state width="1638" height="302" key="GridCell.Tab.0.center" timestamp="1608988358227">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="302" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608878490279" />
+    <state width="1638" height="302" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608988358227" />
     <state width="1638" height="287" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1608079662175" />
     <state width="1659" height="304" key="GridCell.Tab.0.center/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="1638" height="302" key="GridCell.Tab.0.left" timestamp="1608878490278">
+    <state width="1638" height="302" key="GridCell.Tab.0.left" timestamp="1608988358225">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="302" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608878490278" />
+    <state width="1638" height="302" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608988358225" />
     <state width="1638" height="287" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1608079662173" />
     <state width="1659" height="304" key="GridCell.Tab.0.left/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
-    <state width="1638" height="302" key="GridCell.Tab.0.right" timestamp="1608878490280">
+    <state width="1638" height="302" key="GridCell.Tab.0.right" timestamp="1608988358228">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="302" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608878490280" />
+    <state width="1638" height="302" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608988358228" />
     <state width="1638" height="287" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1608079662176" />
     <state width="1659" height="304" key="GridCell.Tab.0.right/0.23.1680.937@0.23.1680.937" timestamp="1604992958563" />
     <state width="792" height="364" key="GridCell.Tab.1.bottom" timestamp="1606201609925">
