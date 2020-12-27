@@ -12,7 +12,11 @@ router.get("/", function (req, res) {
 })
 
 router.post("/", function (req, res) {
-  res.send(createUser(req.body));
+  try {
+    res.send(createUser(req.body));
+  } catch (e) {
+    return res.status(400).json({ error : e.message });
+  }
 })
 
 router.get("/:id", function (req, res) {
@@ -21,18 +25,26 @@ router.get("/:id", function (req, res) {
 
 router.delete("/:id", function (req, res) {
   res.send(deleteById(req.params.id))
-
 })
 
 router.put("/:id", function (req, res) {
   const { id } = req.params;
-  res.send(update({ ...req.body, id }));
+
+  try {
+    res.send(update({ ...req.body, id }));
+  } catch (e) {
+    return res.status(400).json({ error : e.message });
+  }
 })
 
 router.patch("/:id", function (req, res) {
   const { id } = req.params;
-  res.send(updateSingleProperty({ ...req.body, id }))
-})
 
+  try {
+    res.send(updateSingleProperty({ ...req.body, id }));
+  } catch (e) {
+    return res.status(400).json({ error : e.message });
+  }
+})
 
 module.exports = router;

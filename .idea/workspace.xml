@@ -23,12 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fac72a42-d9f9-48cf-b311-c6db20e4d24f" name="Default Changelist" comment="[JiajunLi] added user and book Demo for homework.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express/bookDemo/userService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/express/bookDemo/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/express/bookDemo/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/express/bookDemo/routers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/express/bookDemo/routers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/express/bookDemo/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/express/bookDemo/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express/bookDemo/userService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/express/bookDemo/userService.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

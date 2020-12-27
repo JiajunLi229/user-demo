@@ -10,10 +10,18 @@ const userExample: user = {
 
 const users: user[] = [userExample];
 
+function nameAndAgeCheck(name, age) {
+  if (name.length > 100 || +age > 100 || +age < 0) {
+    throw new Error ("incorrect input of name or age");
+  }
+}
+
 export function createUser(userInformation: user) {
   const { name, age } = userInformation;
+  nameAndAgeCheck(name, age);
   let id = uuidv4();
   users.push({ name, age, id });
+
   return getUserById(id);
 }
 
@@ -27,11 +35,13 @@ export function getUserById(id) {
 
 export function deleteById(id) {
   const IndexOfElementToDelete = users.indexOf(getUserById(id));
+
   return users.splice(IndexOfElementToDelete, 1);
 }
 
 export function update(userInformation) {
   const { name, age } = userInformation;
+  nameAndAgeCheck(name, age);
   const userToUpdate = getUserById(userInformation.id);
   userToUpdate.name = name;
   userToUpdate.age = age;
@@ -41,6 +51,7 @@ export function update(userInformation) {
 
 export function updateSingleProperty(userInformation) {
   const { name, age } = userInformation;
+  nameAndAgeCheck(name, age);
   const userToUpdate = getUserById(userInformation.id);
   if (name) {
     userToUpdate.name = name;
