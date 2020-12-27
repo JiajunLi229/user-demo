@@ -15,3 +15,5 @@ user: {
 }
 
 http://localhost:3000
+
+额外完成：返回statusCode, errorCheck for type of input
