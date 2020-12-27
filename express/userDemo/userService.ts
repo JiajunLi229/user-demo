@@ -22,7 +22,7 @@ export function createUser(userInformation: user) {
   let id = uuidv4();
   users.push({ name, age, id });
 
-  return getUserById(id);
+  return getUserById(id).id;
 }
 
 export function getUser() {
@@ -39,7 +39,7 @@ export function deleteById(id) {
   return users.splice(IndexOfElementToDelete, 1);
 }
 
-export function update(userInformation) {
+export function update(userInformation : user) {
   const { name, age } = userInformation;
   nameAndAgeCheck(name, age);
   const userToUpdate = getUserById(userInformation.id);
@@ -49,7 +49,7 @@ export function update(userInformation) {
   return userToUpdate;
 }
 
-export function updateSingleProperty(userInformation) {
+export function updateSingleProperty(userInformation : user) {
   const { name, age } = userInformation;
   nameAndAgeCheck(name, age);
   const userToUpdate = getUserById(userInformation.id);
