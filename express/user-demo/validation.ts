@@ -10,8 +10,8 @@ let schema = {
     },
     age: {
       type: 'integer',
-      minLength: 0,
-      maxLength: 100
+      minimum: 0,
+      maximum: 120
     },
   },
 };

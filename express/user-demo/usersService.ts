@@ -21,7 +21,7 @@ export function getUserById(id) {
   return users.find(user => user.id === id);
 }
 
-export function getUserByNameAndAge(name, age) {
+export function getUserByNameAndAge(name = undefined, age = undefined) {
   if (name && !age) {
     return users.filter(user => user.name === name)
   } else if (!name && age) {
