@@ -6,7 +6,7 @@ import {
   getUserByNameAndAge,
   update,
   updateSingleProperty
-} from "../userService";
+} from "../usersService";
 import { localHost } from "../routers";
 
 export const createUserController = function (req, res) {

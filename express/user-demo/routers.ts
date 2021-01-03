@@ -2,7 +2,7 @@ import { port } from "./index";
 
 const express = require('express')
 const router = express.Router();
-import * as UserController from "./controllers/UserController";
+import * as UserController from "./controllers/UsersController";
 
 router.get("/", UserController.getUserByPropertyController);
 
