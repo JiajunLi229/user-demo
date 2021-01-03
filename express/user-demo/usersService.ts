@@ -1,16 +1,12 @@
 import { User } from "./types";
-import {users} from './repository'
-const { v4: uuidv4 } = require('uuid')
+import { users } from './repository'
+import { userValidation } from "./validation";
 
-function nameAndAgeCheck(name, age) {
-  if (name.length > 100 || age > 100 || age < 0 || typeof age === "string" || typeof name === "number") {
-    throw new Error("incorrect input of name or age");
-  }//TODO AJV 单独模块校验
-}
+const { v4: uuidv4 } = require('uuid')
 
 export function createUser(userInformation: User) {
   const { name, age } = userInformation;
-  nameAndAgeCheck(name, age);
+  userValidation({ name, age });
   let id = uuidv4();
   users.push({ name, age, id });
 
@@ -44,7 +40,7 @@ export function deleteById(id) {
 
 export function update(userInformation: User) {
   const { name, age } = userInformation;
-  nameAndAgeCheck(name, age);
+  userValidation({ name, age });
   const userToUpdate = getUserById(userInformation.id);
   userToUpdate.name = name;
   userToUpdate.age = age;
@@ -54,7 +50,7 @@ export function update(userInformation: User) {
 
 export function updateSingleProperty(userInformation: User) {
   const { name, age } = userInformation;
-  nameAndAgeCheck(name, age);
+  userValidation({ name, age });
   const userToUpdate = getUserById(userInformation.id);
   if (name) {
     userToUpdate.name = name;

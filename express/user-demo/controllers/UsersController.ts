@@ -23,12 +23,12 @@ export const getUserByIdController = function (req, res) {
 
 export const getUserByPropertyController = function (req, res) {
   const { age, name } = req.query;
-  console.log(req.query);
   if (age || name) {
-    res.send(getUserByNameAndAge(name, age));
-  } else {
+    res.json(getUserByNameAndAge(name, age)).end();
+  }else {
     res.send(getAllUser());
   }
+
 }
 
 export const deleteUserController = function (req, res) {
