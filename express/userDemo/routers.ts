@@ -1,19 +1,29 @@
 const express = require('express')
 const router = express.Router();
-import { getUser, createUser, getUserById, deleteById, update, updateSingleProperty } from "./userService"
+import {
+  getAllUser,
+  createUser,
+  getUserById,
+  deleteById,
+  update,
+  updateSingleProperty,
+  getUserByNameAndAge
+} from "./userService"
 
 const localHost = 'http://localhost:3000';
 router.get("/", function (req, res) {
-  if (req.query.id) {
-    res.send(getUserById(req.query.id));
+  const { age, name } = req.query;
+  console.log(req.query);
+  if (age || name) {
+    res.send(getUserByNameAndAge(name, age));
   } else {
-    res.send(getUser());
+    res.send(getAllUser());
   }
 })
 
 router.post("/", function (req, res) {
   try {
-    res.status(201).header('Location',`${localHost}/books/${createUser(req.body)}`).end();
+    res.status(201).header('Location', `${localHost}/books/${createUser(req.body)}`).end();
   } catch (e) {
     return res.status(400).json({ error: e.message });
   }

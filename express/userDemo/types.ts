@@ -1,10 +1,4 @@
-export type book = {
-  id: string,
-  name: string,
-  author: string
-}
-
-export type user = {
+export type User = {
   id: string,
   name: string,
   age: number
