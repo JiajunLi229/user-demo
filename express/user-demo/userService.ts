@@ -1,14 +1,6 @@
 import { User } from "./types";
-
+import {users} from './repository'
 const { v4: uuidv4 } = require('uuid')
-
-const userExample: User = {
-  id: "1",
-  name: "example",
-  age: 24
-}
-
-const users: User[] = [userExample];
 
 function nameAndAgeCheck(name, age) {
   if (name.length > 100 || age > 100 || age < 0 || typeof age === "string" || typeof name === "number") {
