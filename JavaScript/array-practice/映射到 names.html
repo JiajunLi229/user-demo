@@ -9,7 +9,7 @@ let john = { name: "John", age: 25 };
 let pete = { name: "Pete", age: 30 };
 let mary = { name: "Mary", age: 28 };
 
-let users = [ john, pete, mary ];
+let repository = [ john, pete, mary ];
 
 let names = /* ... your code */
 
@@ -21,11 +21,11 @@ alert( names ); // John, Pete, Mary
     let pete = { name: "Pete", age: 30 };
     let mary = { name: "Mary", age: 28 };
 
-    let users = [ john, pete, mary ];
+    let repository = [ john, pete, mary ];
 
     let names = function () {
         let array = [];
-        for (let person of users) {
+        for (let person of repository) {
             array.push(person.name);
         }
         return array;
@@ -37,7 +37,7 @@ alert( names ); // John, Pete, Mary
     name should be a array, instead of a function
     better solution:
 
-    let names = users.map(item => item.name);
+    let names = repository.map(item => item.name);
 
     */
     </script>

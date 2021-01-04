@@ -7,13 +7,13 @@
 
 例如:
 
-let users = [
+let repository = [
   {id: 'john', name: "John Smith", age: 20},
   {id: 'ann', name: "Ann Smith", age: 24},
   {id: 'pete', name: "Pete Peterson", age: 31},
 ];
 
-let usersById = groupById(users);
+let usersById = groupById(repository);
 
 /*
 // 调用函数后，我们应该得到：
@@ -31,13 +31,13 @@ usersById = {
 请在解决方案中使用数组的 .reduce 方法。
 -->
 <script>
-    let users = [
+    let repository = [
         {id: 'john', name: "John Smith", age: 20},
         {id: 'ann', name: "Ann Smith", age: 24},
         {id: 'pete', name: "Pete Peterson", age: 31},
     ];
 
-    let usersById = groupById(users);
+    let usersById = groupById(repository);
     function groupById(arr) {
         return arr.reduce((sum, element) => {sum[element.id] = element;
         return sum;},{});

@@ -1,12 +1,12 @@
 ## Phase 1
 
 ExpressJS API (TS):
-- GET /users
-- GET /users/:id
-- DELETE /users/:id
-- POST /users/:id
-- PUT /users/:id
-- _PATCH /users/:id_
+- GET /repository
+- GET /repository/:id
+- DELETE /repository/:id
+- POST /repository/:id
+- PUT /repository/:id
+- _PATCH /repository/:id_
 
 user: {
   id: uuid
@@ -22,9 +22,9 @@ http://localhost:3000
 ## Phase 2
 
 - Re-initialize codebase: user-demo
-- GET /users
-  - GET /users?name=:name
-  - GET /users?age=:age
+- GET /repository
+  - GET /repository?name=:name
+  - GET /repository?age=:age
 - Default 404
 - Decouple: router -> controller -> service -> repository
 - Input validation: ajv (json schema)

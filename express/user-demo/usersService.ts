@@ -1,62 +1,38 @@
 import { User } from "./types";
-import { users } from './repository'
-import { userValidation } from "./validation";
+import {
+  createUserFromRepo,
+  deleteByIdFromRepo,
+  getAllUserFromRepo,
+  getUserByIdFromRepo,
+  getUserByNameAndAgeFromRepo, updateFromRepo, updateSinglePropertyFromRepo,
+} from './repository'
 
-const { v4: uuidv4 } = require('uuid')
+
 
 export function createUser(userInformation: User) {
-  const { name, age } = userInformation;
-  userValidation({ name, age });
-  let id = uuidv4();
-  users.push({ name, age, id });
-
-  return getUserById(id).id;
+  return createUserFromRepo(userInformation);
 }
 
 export function getAllUser() {
-  return users;
+  return getAllUserFromRepo();
 }
 
 export function getUserById(id) {
-  return users.find(user => user.id === id);
+  return getUserByIdFromRepo(id);
 }
 
-export function getUserByNameAndAge(name = undefined, age = undefined) {
-  if (name && !age) {
-    return users.filter(user => user.name === name)
-  } else if (!name && age) {
-    return users.filter(user => user.age === parseInt(age));
-  } else {
-    return users.filter(user => user.name === name && user.age === parseInt(age));
-  }
+export function getUserByNameAndAge(name, age) {
+  return getUserByNameAndAgeFromRepo(name, age);
 }
-
 
 export function deleteById(id) {
-  const IndexOfElementToDelete = users.indexOf(getUserById(id));
-
-  return users.splice(IndexOfElementToDelete, 1);
+  return deleteByIdFromRepo(id);
 }
 
 export function update(userInformation: User) {
-  const { name, age } = userInformation;
-  userValidation({ name, age });
-  const userToUpdate = getUserById(userInformation.id);
-  userToUpdate.name = name;
-  userToUpdate.age = age;
-
-  return userToUpdate;
+  return updateFromRepo(userInformation);
 }
 
 export function updateSingleProperty(userInformation: User) {
-  const { name, age } = userInformation;
-  userValidation({ name, age });
-  const userToUpdate = getUserById(userInformation.id);
-  if (name) {
-    userToUpdate.name = name;
-  } else {
-    userToUpdate.age = age;
-  }
-
-  return userToUpdate;
+  return updateSinglePropertyFromRepo(userInformation);
 }
