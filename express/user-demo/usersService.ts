@@ -8,7 +8,6 @@ import {
 } from './repository'
 
 
-
 export function createUser(userInformation: User) {
   return createUserFromRepo(userInformation);
 }
@@ -21,7 +20,7 @@ export function getUserById(id) {
   return getUserByIdFromRepo(id);
 }
 
-export function getUserByNameAndAge(name, age) {
+export function getUsersByNameAndAge(name, age) {
   return getUserByNameAndAgeFromRepo(name, age);
 }
 

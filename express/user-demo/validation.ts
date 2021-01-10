@@ -19,10 +19,14 @@ let schema = {
 let ajv = new Ajv();
 let validate = ajv.compile(schema);
 
-export function userValidation(userInput) {
-  const { name, age } = userInput;
+export function userValidation(req, res, next) {
+  const { name, age } = req.body;
   let valid = validate({ name, age });
-  if (!valid) throw new Error('invalid input');
+  if (!valid) {
+    return res.status(400).json({ error: "invalid input" });
+  } else {
+    return next();
+  }
 }
 
 

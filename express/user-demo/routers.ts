@@ -3,18 +3,19 @@ import { port } from "./index";
 const express = require('express')
 const router = express.Router();
 import * as UserController from "./controllers/UsersController";
+import { userValidation } from "./validation";
 
-router.get("/", UserController.getUserByPropertyController);
+router.get("/", UserController.getUserByDetail);
 
-router.post("/", UserController.createUserController);
+router.post("/", userValidation, UserController.create);
 
-router.get("/:id", UserController.getUserByIdController);
+router.get("/:id", UserController.getAll);
 
-router.delete("/:id", UserController.deleteUserController);
+router.delete("/:id", UserController.remove);
 
-router.put("/:id", UserController.updateUserController);
+router.put("/:id", userValidation, UserController.updateUsers);
 
-router.patch("/:id", UserController.updateSinglePropertyController);
+router.patch("/:id", userValidation, UserController.updateDetail);
 
 module.exports = router;
 export const localHost = `http://localhost:${port};`;

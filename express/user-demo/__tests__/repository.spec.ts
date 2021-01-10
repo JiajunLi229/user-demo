@@ -13,6 +13,10 @@ const userExample: User = {
 }
 
 describe('get users', () => {
+  afterEach(() => {
+    jest.clearAllMocks();
+  });
+
   it('should get all users', function () {
     expect(getAllUserFromRepo()).toEqual([userExample]);
   });
@@ -66,7 +70,7 @@ describe('create users', () => {
         name: "trump",
         age: -1
       }
-      expect(() => (createUserFromRepo(invalidUser))).toThrow(Error);
+      expect(() => createUserFromRepo(invalidUser)).toThrow(Error);
     }
   );
 

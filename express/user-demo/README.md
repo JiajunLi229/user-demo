@@ -40,3 +40,17 @@ http://localhost:3000
   - docker-compose.yml
   - script
   - Port from enviroment variables
+
+## Phase 3
+
+- Validation in controller
+- Array naming: users
+- jest.config: clearMocks
+- prettier
+- others
+  - .nvmrc
+- Containerize
+  - Dockerfile
+  - docker-compose.yml
+  - script
+  - Port from enviroment variables
