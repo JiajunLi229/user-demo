@@ -13,9 +13,6 @@ const userExample: User = {
 }
 
 describe('get users', () => {
-  afterEach(() => {
-    jest.clearAllMocks();
-  });
 
   it('should get all users', function () {
     expect(getAllUserFromRepo()).toEqual([userExample]);
@@ -47,39 +44,4 @@ describe('create users', () => {
     expect(getUserByIdFromRepo(newUserId).name).toEqual(newUser.name);
     expect(getUserByIdFromRepo(newUserId).age).toEqual(newUser.age);
   });
-
-  it('should not create users when name is too long', function () {
-      const invalidUser = {
-        name: "trumptrumptrumptrumptrumptrump" +
-          "trumptrumptrumptrumptrumptrumptrump" +
-          "trumptrumptrumptrumptrumptrumptrump" +
-          "trumptrumptrumptrumptrumptrumptrump" +
-          "trumptrumptrumptrumptrumptrumptrump" +
-          "trumptrumptrumptrumptrumptrumptrump" +
-          "trumptrumptrumptrumptrumptrumptrump" +
-          "trumptrumptrumptrump",
-
-        age: 88
-      }
-      expect(() => (createUserFromRepo(invalidUser))).toThrow(Error);
-    }
-  );
-
-  it('should not create users when age is negative ', function () {
-      const invalidUser = {
-        name: "trump",
-        age: -1
-      }
-      expect(() => createUserFromRepo(invalidUser)).toThrow(Error);
-    }
-  );
-
-  it('should not create users when age is too long ', function () {
-      const invalidUser = {
-        name: "trump",
-        age: 133
-      }
-      expect(() => (createUserFromRepo(invalidUser))).toThrow(Error);
-    }
-  );
 })
