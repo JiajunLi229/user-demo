@@ -3,7 +3,8 @@ let userRouter = require('./routers')
 let app = express();
 app.use(express.json());
 export const port = 3000;
-
+// 起个环境变量：在build的时候传入
+//dockercompose
 app.use('/users', userRouter);
 
 app.use(function (req, res,) {
