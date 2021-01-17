@@ -1,25 +1,25 @@
 import {
-  createUser,
+  createUsers,
   deleteById,
-  getAllUser,
-  getUserById,
+  getAllUsers,
+  getUsersById,
   getUsersByNameAndAge,
   update,
   updateSingleProperty
-} from "../usersService";
-import { localHost } from "../routers";
+} from "../services/usersService";
+import { localHost } from "../../routers";
 
 export const create = function (req, res) {
-  res.status(201).header('Location', `${localHost}/books/${createUser(req.body)}`).end();
+  res.status(201).header('Location', `${localHost}/books/${createUsers(req.body)}`).end();
 }
 
 export const getAll = function (req, res) {
-  res.send(getUserById(req.params.id));
+  res.send(getUsersById(req.params.id));
 }
 
 export const getUserByDetail = function (req, res) {
   const { age, name } = req.query;
-  (age || name) ? res.json(getUsersByNameAndAge(name, age)).end() : res.send(getAllUser());
+  (age || name) ? res.json(getUsersByNameAndAge(name, age)).end() : res.send(getAllUsers());
 }
 
 export const remove = function (req, res) {

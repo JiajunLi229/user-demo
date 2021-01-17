@@ -4,9 +4,9 @@
   "description": "ExpressJS API (TS): - GET /users - GET /users/:id - DELETE /users/:id - POST /users/:id - PUT /users/:id - _PATCH /users/:id_",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "lint:fix": "eslint --fix ./",
-    "lint:check": "eslint ./"
+    "test": "node_modules/.bin/jest",
+    "lint:fix": "node_modules/.bin/eslint --fix ./",
+    "lint:check": "node_modules/.bin/eslint ./"
   },
   "husky": {
     "hooks": {

@@ -1,5 +1,5 @@
 let express = require('express')
-let userRouter = require('./routers')
+let userRouter = require('../routers')
 let app = express();
 app.use(express.json());
 export const port = 3000;

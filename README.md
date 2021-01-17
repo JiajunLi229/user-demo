@@ -54,3 +54,26 @@ http://localhost:3000
   - docker-compose.yml
   - script
   - Port from enviroment variables
+
+## Phase 4
+
+- Extract schema
+- Format package.json
+- Array naming: users
+- Containerize
+  - Compile and run
+  - Dockerfile
+    - install production packages
+  - docker-compose.yml
+    - postgres DB
+    - user: jjl
+    - password: jjl
+    - db: demo
+    - table: user
+      - name: varchar
+      - age: smallint
+  - script
+    - auto/start
+      - 标准 shabang
+    - http://localhost:3000/users
+  - Port from enviroment variables
