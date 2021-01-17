@@ -4,8 +4,10 @@ services:
   app:
     image: node:12-alpine
     command: npx ts-node index
+    environment:
+      - PORT
     ports:
-      - 3000:3000
+      - 3000:${PORT}
     working_dir: /user-demo/src
     volumes:
       - ./:/user-demo
