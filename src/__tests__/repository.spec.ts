@@ -26,7 +26,7 @@ describe('get users', () => {
   })
 
   it('should get user by age', function () {
-    expect(getUsersByNameAndAgeFromRepo(undefined, 24)).toEqual([userExample]);
+    expect(getUsersByNameAndAgeFromRepo(undefined, "24")).toEqual([userExample]);
   })
 
   it('should get user by id', function () {
@@ -41,7 +41,9 @@ describe('create users', () => {
       age: 88
     }
     const newUserId = createUsersFromRepo(newUser);
+    // @ts-ignore
     expect(getUsersByIdFromRepo(newUserId).name).toEqual(newUser.name);
+    // @ts-ignore
     expect(getUsersByIdFromRepo(newUserId).age).toEqual(newUser.age);
   });
 })

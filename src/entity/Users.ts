@@ -4,12 +4,12 @@ import { Entity, Column, PrimaryColumn } from "typeorm";
 export class Users {
 
     @PrimaryColumn()
-    id: string;
+    id: string | undefined;
 
     @Column()
-    name: string;
+    name: string | undefined;
 
     @Column()
-    age: number;
+    age: number | undefined;
 
 }

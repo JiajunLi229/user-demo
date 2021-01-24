@@ -16,15 +16,15 @@ export function getAllUsers() {
   return getAllUserFromRepo();
 }
 
-export function getUsersById(id) {
+export function getUsersById(id: string) {
   return getUsersByIdFromRepo(id);
 }
 
-export function getUsersByNameAndAge(name, age) {
+export function getUsersByNameAndAge(name : string, age : string) {
   return getUsersByNameAndAgeFromRepo(name, age);
 }
 
-export function deleteById(id) {
+export function deleteById(id : string) {
   return deleteByIdFromRepo(id);
 }
 
