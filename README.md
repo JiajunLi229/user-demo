@@ -77,3 +77,13 @@ http://localhost:3000
       - 标准 shabang
     - http://localhost:3000/users
   - Port from enviroment variables
+## Phrase 5
+- tsconfig.json
+- Dockerfile
+  - ENV
+  - tsc in Dockerfile
+  - _multi-stage Dockerfile_
+  - pm2 (npm package)
+- auto/start
+  - 标准 shabang
+- datasource -(typeorm)-> DB

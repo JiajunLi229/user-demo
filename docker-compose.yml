@@ -3,14 +3,14 @@ version: "3.7"
 services:
   app:
     image: node:12-alpine
-    command: npx ts-node index
-    environment:
-      - PORT
+    command: sh -c " npm install --production && npx tsc && sleep 3 && node dist/src/index.js"
     ports:
-      - 3000:${PORT}
-    working_dir: /user-demo/src
+      - 3000:3000
+    working_dir: /user-demo
     volumes:
       - ./:/user-demo
+    links:
+      - database
   database:
     image: postgres:latest
     ports:
