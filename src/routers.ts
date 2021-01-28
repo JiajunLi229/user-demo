@@ -1,9 +1,9 @@
-import { port } from "./src";
+import { port } from "./";
 
-const express = require('express')
+const express = require("express");
 const router = express.Router();
-import * as UserController from "./src/controllers/UsersController";
-import { userValidation } from "./src/validation/validation";
+import * as UserController from "./controllers/UsersController";
+import { userValidation } from "./validation/validation";
 
 router.get("/", UserController.getUserByDetail);
 

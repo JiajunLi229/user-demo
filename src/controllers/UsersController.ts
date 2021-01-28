@@ -5,38 +5,42 @@ import {
   getUsersById,
   getUsersByNameAndAge,
   update,
-  updateSingleProperty
+  updateSingleProperty,
 } from "../services/usersService";
-import { localHost } from "../../routers";
+import { localHost } from "../routers";
+import { createConnection } from "typeorm";
 
-export const create = function (req: any, res: any) {
-  res.status(201).header('Location', `${localHost}/books/${createUsers(req.body)}`).end();
-}
+export const create = async function (req: any, res: any) {
+  res
+    .status(201)
+    .header("Location", `${localHost}/books/${await createUsers(req.body)}`)
+    .end();
+};
 
-export const getAll = function (req: any, res: any) {
-  res.send(getUsersById(req.params.id));
-}
+export const getAll = async function (req: any, res: any) {
+  res.send(await getUsersById(req.params.id));
+};
 
-export const getUserByDetail = function (req: any, res: any) {
+export const getUserByDetail = async function (req: any, res: any) {
   const { age, name } = req.query;
-  (age || name) ? res.json(getUsersByNameAndAge(name, age)).end() : res.send(getAllUsers());
-}
+  age || name
+    ? res.json(await getUsersByNameAndAge(name, age)).end()
+    : res.send(await getAllUsers());
+};
 
-export const remove = function (req: any, res: any) {
-  deleteById(req.params.id);
+export const remove = async function (req: any, res: any) {
+  await deleteById(req.params.id);
   res.status(204).end();
 };
 
-export const updateUsers = function (req: any, res: any) {
+export const updateUsers = async function (req: any, res: any) {
   const { id } = req.params;
-
-  update({ ...req.body, id });
+  await update({ ...req.body, id });
   res.status(200).end();
 };
 
-export const updateDetail = function (req: any, res: any) {
+export const updateDetail = async function (req: any, res: any) {
   const { id } = req.params;
-
-  updateSingleProperty({ ...req.body, id });
+  await updateSingleProperty({ ...req.body, id });
   res.status(200).end();
 };

@@ -4,34 +4,35 @@ import {
   deleteByIdFromRepo,
   getAllUserFromRepo,
   getUsersByIdFromRepo,
-  getUsersByNameAndAgeFromRepo, updateFromRepo, updateSinglePropertyFromRepo,
-} from '../repositories/repository'
+  getUsersByNameAndAgeFromRepo,
+  updateFromRepo,
+  updateSinglePropertyFromRepo,
+} from "../repositories/repository";
 
-
-export function createUsers(userInformation: User) {
-  return createUsersFromRepo(userInformation);
+export async function createUsers(userInformation: User) {
+  return await createUsersFromRepo(userInformation);
 }
 
-export function getAllUsers() {
-  return getAllUserFromRepo();
+export async function getAllUsers() {
+  return await getAllUserFromRepo();
 }
 
-export function getUsersById(id: string) {
-  return getUsersByIdFromRepo(id);
+export async function getUsersById(id: string) {
+  return await getUsersByIdFromRepo(id);
 }
 
-export function getUsersByNameAndAge(name : string, age : string) {
-  return getUsersByNameAndAgeFromRepo(name, age);
+export async function getUsersByNameAndAge(name: string, age: string) {
+  return await getUsersByNameAndAgeFromRepo(name, age);
 }
 
-export function deleteById(id : string) {
-  return deleteByIdFromRepo(id);
+export async function deleteById(id: string) {
+  return await deleteByIdFromRepo(id);
 }
 
-export function update(userInformation: User) {
-  return updateFromRepo(userInformation);
+export async function update(userInformation: User) {
+  return await updateFromRepo(userInformation);
 }
 
-export function updateSingleProperty(userInformation: User) {
-  return updateSinglePropertyFromRepo(userInformation);
+export async function updateSingleProperty(userInformation: User) {
+  return await updateSinglePropertyFromRepo(userInformation);
 }

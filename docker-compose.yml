@@ -2,8 +2,8 @@ version: "3.7"
 
 services:
   app:
-    image: node:12-alpine
-    command: sh -c " npm install --production && npx tsc && sleep 3 && node dist/src/index.js"
+    image: node:13-alpine
+    command: sh -c "npm install && npx tsc && node dist/index.js"
     ports:
       - 3000:3000
     working_dir: /user-demo
@@ -11,6 +11,7 @@ services:
       - ./:/user-demo
     links:
       - database
+
   database:
     image: postgres:latest
     ports:

@@ -2,14 +2,15 @@ import { Entity, Column, PrimaryColumn } from "typeorm";
 
 @Entity()
 export class Users {
+  @PrimaryColumn()
+  // @ts-ignore
+  id: string;
 
-    @PrimaryColumn()
-    id: string | undefined;
+  @Column()
+  // @ts-ignore
+  name?: string;
 
-    @Column()
-    name: string | undefined;
-
-    @Column()
-    age: number | undefined;
-
+  @Column()
+  // @ts-ignore
+  age?: number;
 }
