@@ -10,15 +10,12 @@
    "entities": [
       "dist/entity/**/*.js"
    ],
+   "migrationsTableName": "users",
    "migrations": [
-      "src/migration/**/*.ts"
-   ],
-   "subscribers": [
-      "src/subscriber/**/*.ts"
+      "dist/migration/**/*.ts"
    ],
    "cli": {
       "entitiesDir": "dist/entity",
-      "migrationsDir": "src/migration",
-      "subscribersDir": "src/subscriber"
+      "migrationsDir": "dist/migration"
    }
 }
